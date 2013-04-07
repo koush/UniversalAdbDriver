@@ -23,9 +23,9 @@ HKR,,,0,%ClassName%
 HKR,,Icon,,-1
 
 [Manufacturer]
-%ProviderName% = Google, NTx86, NTamd64
+%ProviderName% = ClockworkMod, NTx86, NTamd64
 
-[Google.NTx86]
+[ClockworkMod.NTx86]
 
 ; Asus Transformer Prime TF201 APX Interface
 %AsusTransformerPrimeAPXInterface%		= USB_Install, USB\VID_0955&PID_7330
@@ -33,7 +33,7 @@ HKR,,Icon,,-1
 ; Asus Transformer TF101 APX Interface
 %AsusTransformerAPXInterface%			= USB_Install, USB\VID_0955&PID_7820
 
-[Google.NTamd64]
+[ClockworkMod.NTamd64]
 
 ; Asus Transformer Prime TF201 APX & ADB Interface
 %AsusTransformerPrimeAPXInterface%		= USB_Install, USB\VID_0955&PID_7330
@@ -95,7 +95,7 @@ WinUSBCoInstaller2.dll  = 2
 WdfCoInstaller01009.dll = 2
 
 [Strings]
-ProviderName						= "Google, Inc."
+ProviderName						= "ClockworkMod"
 SingleAdbInterface					= "Android ADB Interface"
 CompositeAdbInterface				= "Android Composite ADB Interface"
 SingleBootLoaderInterface			= "Android Bootloader Interface"

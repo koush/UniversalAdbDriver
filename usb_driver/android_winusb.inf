@@ -6,7 +6,7 @@ Signature			= "$Windows NT$"
 Class				= AndroidUsbDeviceClass
 ClassGuid			= {3F966BD9-FA04-4ec5-991C-D326973B5128}
 Provider			= %ProviderName%
-DriverVer			= 12/06/2010,4.0.0000.00000
+DriverVer           = 08/27/2012,7.0.0000.00001
 CatalogFile.NTx86	= androidwinusb86.cat
 CatalogFile.NTamd64	= androidwinusba64.cat
 
@@ -23,9 +23,9 @@ HKR,,,0,%ClassName%
 HKR,,Icon,,-1
 
 [Manufacturer]
-%ProviderName%		= Google, NTx86, NTamd64
+%ProviderName%		= ClockworkMod, NTx86, NTamd64
 
-[Google.NTx86]
+[ClockworkMod.NTx86]
 
 ;LG Nexus 4
 %GoogleNexus4ADBInterface%						= USB_Install, USB\VID_18D1&PID_4EE2&REV_0228&MI_01
@@ -571,7 +571,7 @@ HKR,,Icon,,-1
 %HTC%									= USB_Install, USB\VID_0BB4&PID_0E72&MI_01
 %HTC%									= USB_Install, USB\VID_0BB4&PID_0E76&MI_01
 
-[Google.NTamd64]
+[ClockworkMod.NTamd64]
 
 ;LG Nexus 4
 %GoogleNexus4ADBInterface%						= USB_Install, USB\VID_18D1&PID_4EE2&REV_0228&MI_01
@@ -1173,7 +1173,7 @@ WdfCoInstaller01009.dll = 2
 
 
 [Strings]
-ProviderName						= "Google, Inc."
+ProviderName						= "ClockworkMod"
 SingleAdbInterface					= "Android ADB Interface"
 CompositeAdbInterface					= "Android Composite ADB Interface"
 SingleBootLoaderInterface				= "Android Bootloader Interface"
