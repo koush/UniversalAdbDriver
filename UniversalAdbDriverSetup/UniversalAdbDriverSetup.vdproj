@@ -113,6 +113,20 @@
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_7CC66C995E57468B8D0BCE845D80E58D"
+            {
+            "Name" = "8:Primary output from UniveralAdbDriverInstaller (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_35E8663D78FD4E1D93F4DD2346835FB7"
+            "FileType" = "3:2"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_13461DDA_99E0_415F_9A57_C647C84DB63C"
+            "InstallerClass" = "11:FALSE"
+            "CustomActionData" = "8:"
+            }
         }
         "DefaultFeature"
         {
@@ -213,7 +227,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Universal Adb Driver"
         "ProductCode" = "8:{D9C4202E-6D51-4B06-A8F1-22316E654BCA}"
-        "PackageCode" = "8:{A1A0FB72-6E8F-4D14-B007-FE07D5BFC65C}"
+        "PackageCode" = "8:{B7A09F4A-35B8-4D84-A1B7-939FFB09B1DF}"
         "UpgradeCode" = "8:{447277DA-6F14-470F-B773-62360596CF50}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -452,8 +466,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1202"
+                            "Setting" = "3:2"
+                            "Value" = "8:"
                             "DefaultValue" = "8:#1202"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -466,7 +480,7 @@
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:2"
-                            "Value" = "8:The installer will guide you through the steps required to install [ProductName] on your computer."
+                            "Value" = "8:Please disconnect your Android device before installing [ProductName] on your computer."
                             "DefaultValue" = "8:#1203"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -717,8 +731,8 @@
                             "Type" = "3:15"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1258"
+                            "Setting" = "3:2"
+                            "Value" = "8:Installation of [ProductName] is completed."
                             "DefaultValue" = "8:#1258"
                             "UsePlugInResources" = "11:TRUE"
                             }

@@ -40,10 +40,10 @@
   </PropertyGroup>
 
 <ItemGroup>
-    <None Include="..\usb_driver\**\*.*">
+    <Content Include="..\usb_driver\**\*.*">
         <Link>usb_driver\%(RecursiveDir)%(FileName)%(Extension)</Link>
 	<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </Content>
 </ItemGroup>
 
 
