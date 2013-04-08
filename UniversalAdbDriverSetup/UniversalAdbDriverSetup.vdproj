@@ -15,80 +15,20 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_299D176C3B7A4102859E2F75169E56CA"
+        "MsmKey" = "8:_2CB82CBD86BE4A46BE13D09F57ADD63D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_3E0B10931E4447D8ACEA563AA617FED8"
+        "MsmKey" = "8:_35E8663D78FD4E1D93F4DD2346835FB7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_40A550D93765453E87273FEEBC407AD8"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4E7D2744DF0C461E9F0C292DDA914554"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_5E700C97677F42AB9E4687C2661B619E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7C778F7B05F84999AB8A0E7CE05446DB"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_831AAF615CFA460FB18D02697C036496"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_8BE962E98B2F49AABB59B69ADBD47587"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_92A685F9BF794E26A9653E0267A0C172"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A751251CD1A644298F396FC77A7E86AF"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_AA814F209C624E429CBBC01F35617D94"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C3082929CB464DB2B821218C97BECADB"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_DD29B957753844B3B9EA57A0D7CEC902"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_35E8663D78FD4E1D93F4DD2346835FB7"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -116,6 +56,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
         "Release"
@@ -140,6 +93,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
     }
@@ -158,256 +124,24 @@
         {
             "LaunchCondition"
             {
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_A68C9EB5D8794CC4805060B77A3CCA02"
+                {
+                "Name" = "8:.NET Framework"
+                "Message" = "8:[VSDNETMSG]"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                "AllowLaterVersions" = "11:FALSE"
+                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=131000"
+                }
             }
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_299D176C3B7A4102859E2F75169E56CA"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2CB82CBD86BE4A46BE13D09F57ADD63D"
             {
-            "SourcePath" = "8:..\\usb_driver\\i386\\NOTICE.txt"
-            "TargetName" = "8:NOTICE.txt"
+            "SourcePath" = "8:..\\ClockworkMod.cer"
+            "TargetName" = "8:ClockworkMod.cer"
             "Tag" = "8:"
-            "Folder" = "8:_D16C7C96E5CC4251A35E34B967629B08"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3E0B10931E4447D8ACEA563AA617FED8"
-            {
-            "SourcePath" = "8:..\\usb_driver\\android_winusb.inf"
-            "TargetName" = "8:android_winusb.inf"
-            "Tag" = "8:"
-            "Folder" = "8:_DB6E9E64E5AD49D9BCD0469C8192A4D3"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_40A550D93765453E87273FEEBC407AD8"
-            {
-            "SourcePath" = "8:..\\usb_driver\\source.properties"
-            "TargetName" = "8:source.properties"
-            "Tag" = "8:"
-            "Folder" = "8:_DB6E9E64E5AD49D9BCD0469C8192A4D3"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4E7D2744DF0C461E9F0C292DDA914554"
-            {
-            "SourcePath" = "8:..\\usb_driver\\amd64\\winusbcoinstaller2.dll"
-            "TargetName" = "8:winusbcoinstaller2.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_5868D59F24A74F719BB40C358DB46003"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5E700C97677F42AB9E4687C2661B619E"
-            {
-            "SourcePath" = "8:..\\usb_driver\\i386\\WUDFUpdate_01009.dll"
-            "TargetName" = "8:WUDFUpdate_01009.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_D16C7C96E5CC4251A35E34B967629B08"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7C778F7B05F84999AB8A0E7CE05446DB"
-            {
-            "SourcePath" = "8:..\\usb_driver\\i386\\WdfCoInstaller01009.dll"
-            "TargetName" = "8:WdfCoInstaller01009.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_D16C7C96E5CC4251A35E34B967629B08"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_831AAF615CFA460FB18D02697C036496"
-            {
-            "SourcePath" = "8:..\\usb_driver\\i386\\winusbcoinstaller2.dll"
-            "TargetName" = "8:winusbcoinstaller2.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_D16C7C96E5CC4251A35E34B967629B08"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8BE962E98B2F49AABB59B69ADBD47587"
-            {
-            "SourcePath" = "8:..\\usb_driver\\androidwinusb86.cat"
-            "TargetName" = "8:androidwinusb86.cat"
-            "Tag" = "8:"
-            "Folder" = "8:_DB6E9E64E5AD49D9BCD0469C8192A4D3"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_92A685F9BF794E26A9653E0267A0C172"
-            {
-            "SourcePath" = "8:..\\usb_driver\\amd64\\NOTICE.txt"
-            "TargetName" = "8:NOTICE.txt"
-            "Tag" = "8:"
-            "Folder" = "8:_5868D59F24A74F719BB40C358DB46003"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A751251CD1A644298F396FC77A7E86AF"
-            {
-            "SourcePath" = "8:..\\usb_driver\\amd64\\WdfCoInstaller01009.dll"
-            "TargetName" = "8:WdfCoInstaller01009.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_5868D59F24A74F719BB40C358DB46003"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AA814F209C624E429CBBC01F35617D94"
-            {
-            "SourcePath" = "8:..\\usb_driver\\amd64\\WUDFUpdate_01009.dll"
-            "TargetName" = "8:WUDFUpdate_01009.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_5868D59F24A74F719BB40C358DB46003"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C3082929CB464DB2B821218C97BECADB"
-            {
-            "SourcePath" = "8:..\\usb_driver\\androidwinusba64.cat"
-            "TargetName" = "8:androidwinusba64.cat"
-            "Tag" = "8:"
-            "Folder" = "8:_DB6E9E64E5AD49D9BCD0469C8192A4D3"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DD29B957753844B3B9EA57A0D7CEC902"
-            {
-            "SourcePath" = "8:..\\usb_driver\\sign.bat"
-            "TargetName" = "8:sign.bat"
-            "Tag" = "8:"
-            "Folder" = "8:_DB6E9E64E5AD49D9BCD0469C8192A4D3"
+            "Folder" = "8:_9CF04F2B9B024BDA8761A7C058ED92AD"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -441,7 +175,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_9CF04F2B9B024BDA8761A7C058ED92AD"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -449,39 +183,6 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_DB6E9E64E5AD49D9BCD0469C8192A4D3"
-                    {
-                    "Name" = "8:usb_driver"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_991CBC37FE884023943BFF84EB39FB0B"
-                        "Folders"
-                        {
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_5868D59F24A74F719BB40C358DB46003"
-                            {
-                            "Name" = "8:amd64"
-                            "AlwaysCreate" = "11:FALSE"
-                            "Condition" = "8:"
-                            "Transitive" = "11:FALSE"
-                            "Property" = "8:_C77B8A9D58764CA4AF25183A76CF531D"
-                                "Folders"
-                                {
-                                }
-                            }
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_D16C7C96E5CC4251A35E34B967629B08"
-                            {
-                            "Name" = "8:i386"
-                            "AlwaysCreate" = "11:FALSE"
-                            "Condition" = "8:"
-                            "Transitive" = "11:FALSE"
-                            "Property" = "8:_C2268BB908304598B99DD41BF2FDEF68"
-                                "Folders"
-                                {
-                                }
-                            }
-                        }
-                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_9E25BFD15E58419790CF82C02DF2FCDD"
@@ -510,22 +211,22 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:UniversalAdbDriverSetup"
+        "ProductName" = "8:Universal Adb Driver"
         "ProductCode" = "8:{D9C4202E-6D51-4B06-A8F1-22316E654BCA}"
-        "PackageCode" = "8:{2A385FE1-7866-47F8-86DA-7AC83925BA3D}"
+        "PackageCode" = "8:{A1A0FB72-6E8F-4D14-B007-FE07D5BFC65C}"
         "UpgradeCode" = "8:{447277DA-6F14-470F-B773-62360596CF50}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Default Company Name"
+        "Manufacturer" = "8:ClockworkMod"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:UniversalAdbDriverSetup"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:ClockworkMod"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -533,7 +234,7 @@
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:0"
+        "TargetPlatform" = "3:1"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
@@ -764,8 +465,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1203"
+                            "Setting" = "3:2"
+                            "Value" = "8:The installer will guide you through the steps required to install [ProductName] on your computer."
                             "DefaultValue" = "8:#1203"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -1031,6 +732,62 @@
         }
         "ProjectOutput"
         {
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_35E8663D78FD4E1D93F4DD2346835FB7"
+            {
+            "SourcePath" = "8:..\\UniveralAdbDriverInstaller\\obj\\x86\\Debug\\UniveralAdbDriverInstaller.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9CF04F2B9B024BDA8761A7C058ED92AD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{5EE126D2-7CB8-4985-82FB-5F44B06210AE}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_CA2B2837EC3D4EEBAF3ACA410B731408"
+            {
+            "SourcePath" = "8:"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9CF04F2B9B024BDA8761A7C058ED92AD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:ContentFiles"
+            "OutputProjectGuid" = "8:{5EE126D2-7CB8-4985-82FB-5F44B06210AE}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
         }
     }
 }

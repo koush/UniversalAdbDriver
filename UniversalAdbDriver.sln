@@ -3,16 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UniversalAdbDriverSetup", "UniversalAdbDriverSetup\UniversalAdbDriverSetup.vdproj", "{98CABC65-4F94-47A5-9C79-C6013A09A690}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniveralAdbDriverInstaller", "UniveralAdbDriverInstaller\UniveralAdbDriverInstaller.csproj", "{5EE126D2-7CB8-4985-82FB-5F44B06210AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Default = Debug|Default
-		Release|Default = Release|Default
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{98CABC65-4F94-47A5-9C79-C6013A09A690}.Debug|Default.ActiveCfg = Debug
-		{98CABC65-4F94-47A5-9C79-C6013A09A690}.Debug|Default.Build.0 = Debug
-		{98CABC65-4F94-47A5-9C79-C6013A09A690}.Release|Default.ActiveCfg = Release
-		{98CABC65-4F94-47A5-9C79-C6013A09A690}.Release|Default.Build.0 = Release
+		{98CABC65-4F94-47A5-9C79-C6013A09A690}.Debug|x86.ActiveCfg = Debug
+		{98CABC65-4F94-47A5-9C79-C6013A09A690}.Debug|x86.Build.0 = Debug
+		{98CABC65-4F94-47A5-9C79-C6013A09A690}.Release|x86.ActiveCfg = Release
+		{98CABC65-4F94-47A5-9C79-C6013A09A690}.Release|x86.Build.0 = Release
+		{5EE126D2-7CB8-4985-82FB-5F44B06210AE}.Debug|x86.ActiveCfg = Debug|x86
+		{5EE126D2-7CB8-4985-82FB-5F44B06210AE}.Debug|x86.Build.0 = Debug|x86
+		{5EE126D2-7CB8-4985-82FB-5F44B06210AE}.Release|x86.ActiveCfg = Release|x86
+		{5EE126D2-7CB8-4985-82FB-5F44B06210AE}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
