@@ -42,7 +42,7 @@ namespace UniveralAdbDriverInstaller {
             // add clockworkmod cert to trusted publisher store
             store = new X509Store(StoreName.TrustedPublisher, StoreLocation.LocalMachine);
             store.Open(OpenFlags.ReadWrite);
-            store.Add(cert); //where cert is an X509Certificate object
+            store.Add(cert);
             store.Close(); 
 
             // install the .inf
