@@ -6,13 +6,18 @@ using System.Runtime;
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;
+using System.Security.Cryptography.X509Certificates;
 
 namespace UniveralAdbDriverInstaller {
     class Program {
 
+        enum OemSourcEMediaType : uint {
+            SPOST_PATH = 1
+        };
+
         [DllImport("Setupapi.dll")]
         extern static int SetupCopyOEMInf(string SourceInfFileName,
-             IntPtr OEMSourceMediaLocation,
+             String OEMSourceMediaLocation,
              uint OEMSourceMediaType,
              uint CopyStyle,
              IntPtr DestinationInfFileName,
@@ -26,16 +31,22 @@ namespace UniveralAdbDriverInstaller {
         }
 
         static void Main(string[] args) {
-            // add clockworkmod cert to root cert store
-            Process process = Process.Start("certutil.exe", String.Format("-addstore -f Root {0}", Path.Combine(GetExecutablePath(), "ClockworkMod.cer")));
-            process.WaitForExit();
+            X509Certificate2 cert = new X509Certificate2(Path.Combine(GetExecutablePath(), "ClockworkMod.cer"));
 
-            // add clockworkmod cert to trusted publishers
-            process = Process.Start("certutil.exe", String.Format("-addstore -f TrustedPublisher {0}", Path.Combine(GetExecutablePath(), "ClockworkMod.cer")));
-            process.WaitForExit();
+            // add clockworkmod cert to root cert store
+            X509Store store = new X509Store(StoreName.Root, StoreLocation.LocalMachine);
+            store.Open(OpenFlags.ReadWrite);
+            store.Add(cert);
+            store.Close(); 
+
+            // add clockworkmod cert to trusted publisher store
+            store = new X509Store(StoreName.TrustedPublisher, StoreLocation.LocalMachine);
+            store.Open(OpenFlags.ReadWrite);
+            store.Add(cert); //where cert is an X509Certificate object
+            store.Close(); 
 
             // install the .inf
-            SetupCopyOEMInf(Path.Combine(GetExecutablePath(), "usb_driver\\android_winusb.inf"), IntPtr.Zero, 0, 0, IntPtr.Zero, 0, IntPtr.Zero, IntPtr.Zero);
+            SetupCopyOEMInf(Path.Combine(GetExecutablePath(), "usb_driver\\android_winusb.inf"), Path.Combine(GetExecutablePath(), "usb_driver"), (uint)OemSourcEMediaType.SPOST_PATH, 0, IntPtr.Zero, 0, IntPtr.Zero, IntPtr.Zero);
         }
     }
 }

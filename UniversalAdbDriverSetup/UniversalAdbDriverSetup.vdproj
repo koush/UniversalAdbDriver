@@ -142,7 +142,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                "FrameworkVersion" = "8:ANY"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=131000"
                 }
@@ -189,7 +189,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_9CF04F2B9B024BDA8761A7C058ED92AD"
             {
-            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -227,7 +227,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Universal Adb Driver"
         "ProductCode" = "8:{D9C4202E-6D51-4B06-A8F1-22316E654BCA}"
-        "PackageCode" = "8:{B7A09F4A-35B8-4D84-A1B7-939FFB09B1DF}"
+        "PackageCode" = "8:{76B13E47-E0B2-4057-BA97-D327EC2580C7}"
         "UpgradeCode" = "8:{447277DA-6F14-470F-B773-62360596CF50}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -248,7 +248,7 @@
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:1"
+        "TargetPlatform" = "3:0"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
@@ -748,7 +748,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_35E8663D78FD4E1D93F4DD2346835FB7"
             {
-            "SourcePath" = "8:..\\UniveralAdbDriverInstaller\\obj\\x86\\Debug\\UniveralAdbDriverInstaller.exe"
+            "SourcePath" = "8:..\\UniveralAdbDriverInstaller\\obj\\Release\\UniveralAdbDriverInstaller.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9CF04F2B9B024BDA8761A7C058ED92AD"
