@@ -26,6 +26,13 @@ HKR,,Icon,,-1
 %ProviderName%		= ClockworkMod, NTx86, NTamd64
 
 [ClockworkMod.NTx86]
+;Nook
+%Nook%     = USB_Install, USB\VID_18D1&PID_0001
+%Nook%     = USB_Install, USB\VID_18D1&PID_0001&MI_00
+
+;B & N Nook Color
+%Nook%        = USB_Install, USB\VID_2080&PID_0002
+%Nook%     = USB_Install, USB\VID_2080&PID_0002&MI_01
 
 ;LG Nexus 4
 %GoogleNexus4ADBInterface%						= USB_Install, USB\VID_18D1&PID_4EE2&REV_0228&MI_01
@@ -572,6 +579,14 @@ HKR,,Icon,,-1
 %HTC%									= USB_Install, USB\VID_0BB4&PID_0E76&MI_01
 
 [ClockworkMod.NTamd64]
+
+;Nook
+%Nook%     = USB_Install, USB\VID_18D1&PID_0001
+%Nook%     = USB_Install, USB\VID_18D1&PID_0001&MI_00
+
+;B & N Nook Color
+%Nook%        = USB_Install, USB\VID_2080&PID_0002
+%Nook%     = USB_Install, USB\VID_2080&PID_0002&MI_01
 
 ;LG Nexus 4
 %GoogleNexus4ADBInterface%						= USB_Install, USB\VID_18D1&PID_4EE2&REV_0228&MI_01
@@ -1222,3 +1237,6 @@ AsusEeePadSliderADBInterface				= "Asus Eee Pad Slider ADB Interface"
 
 ; Generic HTC Interface
 HTC        						= "HTC Android Interface"
+
+; Nook Interface
+Nook                  = "Nook Android Interface"
