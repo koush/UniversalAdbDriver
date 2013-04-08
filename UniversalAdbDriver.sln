@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UniversalAdbDriverSetup", "UniversalAdbDriverSetup\UniversalAdbDriverSetup.vdproj", "{98CABC65-4F94-47A5-9C79-C6013A09A690}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98CABC65-4F94-47A5-9C79-C6013A09A690}.Debug|Default.ActiveCfg = Debug
+		{98CABC65-4F94-47A5-9C79-C6013A09A690}.Debug|Default.Build.0 = Debug
+		{98CABC65-4F94-47A5-9C79-C6013A09A690}.Release|Default.ActiveCfg = Release
+		{98CABC65-4F94-47A5-9C79-C6013A09A690}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
