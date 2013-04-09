@@ -1729,3 +1729,7 @@ HTC        						= "HTC Android Interface"
 
 ; Nook Interface
 Nook                  = "Nook Android Interface"
+
+; Motorola Interface
+MotSingleInterface		= "Mot Single ADB Interface"
+MotCompositeInterface	= "Mot Composite ADB Interface"
