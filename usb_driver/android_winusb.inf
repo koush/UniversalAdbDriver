@@ -578,6 +578,252 @@ HKR,,Icon,,-1
 %HTC%									= USB_Install, USB\VID_0BB4&PID_0E72&MI_01
 %HTC%									= USB_Install, USB\VID_0BB4&PID_0E76&MI_01
 
+
+;Motorola
+; h
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64B6&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64B8&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64B9
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64BB&MI_00
+
+; test
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41EE&MI_03
+
+; q sm
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E51&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E53&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E55&MI_01
+
+; q dva
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E27&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E35&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E38&MI_03
+
+; i
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_7100
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7102&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7104&MI_03
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7106&MI_03
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7108&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_710A&MI_03
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_710C&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_710E&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7111&MI_01
+
+; x im
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64CA&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64D0&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64D2&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64D4&MI_03
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64D6&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64D8&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64DA&MI_03
+; x am
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64B2&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64B3&MI_01
+
+; ics qc d
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E22&MI_01
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_2E23
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E25&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E29&MI_05
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E2B&MI_07
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E2D&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E31&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E33&MI_02
+; ics y
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41DD&MI_02
+
+; ics o4
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4356&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_435E&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4362&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4364&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4366&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4368&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4354&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_435C&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_433D&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_433F&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4306&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4308&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4358&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4360&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_436A&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_436C&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_436E&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4370&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4372&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4374&MI_01
+
+; t qc
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E16&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E18&MI_00
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E1A&MI_02
+
+; g2
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41C7&MI_02
+
+; p qc
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_2DF1
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DF3&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DF5&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DF7&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DF9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DFB&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DFD&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DFF&MI_05
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E02&MI_02
+; o4
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4311&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_433B&MI_02
+
+; o4-1
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4313&MI_03
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4314&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4315&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4317&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4319&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_431B&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_431D&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_431F&MI_06
+; o4-2
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4330&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4331&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4333&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4335&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4337&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4339&MI_02
+; dq+
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DE6&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DE8&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DE9&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DEA&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DEB&MI_02
+
+; h nV
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70AB&MI_04
+; et
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7094&MI_09
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7096&MI_0B
+; ev
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70B1&MI_07
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70B3&MI_09
+; t o4
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_42F1
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42F3&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42F5&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42F7&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42F9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42FB&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42FD&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4302&MI_09
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4304&MI_0B
+; s o4
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_42D1
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42D3&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42D5&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42D7&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42D9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42DB&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42DD&MI_02
+; d nV
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_70C1
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70C3&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70C5&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70C7&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70C9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70CB&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70CD&MI_02
+
+; e
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_18D1&PID_708C
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_18D1&PID_70AC
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70A2&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70A9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70AF&MI_02
+
+; o3
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42C1&MI_01
+; o,e
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7090&MI_01
+; g
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41C3&MI_01
+; ft
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41E5&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7092&MI_02
+
+; g,o3 
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41E7&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41E9&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41EA&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41EC&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41ED&MI_03
+; c
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DD3&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DD4&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DD5&MI_02
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_2DD9
+; o/e,e
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7080&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7082&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7087&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7089&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_708B&MI_04
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_708C
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_70AC
+; s
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4284&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4286&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4289&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_428B&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_428C&MI_01
+; d2
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42A2&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42A4&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42A7&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42A9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42AA&MI_01
+; dp
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42B2&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42B4&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42B7&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42B9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42BA&MI_01
+; v2
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42C2&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42C4&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42C7&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42C9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42CA&MI_01
+;Calgary
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D7B&MI_03
+
+;Calgary
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D74&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D75&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D76&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D7B&MI_03
+
+;Morrison
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_2D62
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D61&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D64&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D66&MI_00
+;sholes umts
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_41D1
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41D2
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41DA&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41DB&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41DC&MI_01
+;Sholes CDMA
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41DB&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41E2&MI_04
+;Morrison/Motus/Zepplin
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D68&MI_01
+
+
+
 [ClockworkMod.NTamd64]
 
 ;Nook
@@ -1132,6 +1378,249 @@ HKR,,Icon,,-1
 %HTC%									= USB_Install, USB\VID_0BB4&PID_0E72&MI_01
 %HTC%									= USB_Install, USB\VID_0BB4&PID_0E76&MI_01
 
+
+;Motorola
+; h
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64B6&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64B8&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64B9
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64BB&MI_00
+
+; test
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41EE&MI_03
+
+; q sm
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E51&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E53&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E55&MI_01
+
+; q dva
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E27&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E35&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E38&MI_03
+
+; i
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_7100
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7102&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7104&MI_03
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7106&MI_03
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7108&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_710A&MI_03
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_710C&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_710E&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7111&MI_01
+
+; x im
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64CA&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64D0&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64D2&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64D4&MI_03
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64D6&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64D8&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64DA&MI_03
+; x am
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64B2&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_64B3&MI_01
+
+; ics qc d
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E22&MI_01
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_2E23
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E25&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E29&MI_05
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E2B&MI_07
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E2D&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E31&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E33&MI_02
+; ics y
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41DD&MI_02
+
+; ics o4
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4356&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_435E&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4362&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4364&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4366&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4368&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4354&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_435C&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_433D&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_433F&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4306&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4308&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4358&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4360&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_436A&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_436C&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_436E&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4370&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4372&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4374&MI_01
+
+; t qc
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E16&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E18&MI_00
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E1A&MI_02
+
+; g2
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41C7&MI_02
+
+; p qc
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_2DF1
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DF3&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DF5&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DF7&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DF9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DFB&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DFD&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DFF&MI_05
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2E02&MI_02
+; o4
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4311&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_433B&MI_02
+
+; o4-1
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4313&MI_03
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4314&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4315&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4317&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4319&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_431B&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_431D&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_431F&MI_06
+; o4-2
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4330&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4331&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4333&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4335&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4337&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4339&MI_02
+; dq+
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DE6&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DE8&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DE9&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DEA&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DEB&MI_02
+
+; h nV
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70AB&MI_04
+; et
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7094&MI_09
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7096&MI_0B
+; ev
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70B1&MI_07
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70B3&MI_09
+; t o4
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_42F1
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42F3&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42F5&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42F7&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42F9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42FB&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42FD&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4302&MI_09
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4304&MI_0B
+; s o4
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_42D1
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42D3&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42D5&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42D7&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42D9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42DB&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42DD&MI_02
+; d nV
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_70C1
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70C3&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70C5&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70C7&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70C9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70CB&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70CD&MI_02
+
+; e
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_18D1&PID_708C
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_18D1&PID_70AC
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70A2&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70A9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_70AF&MI_02
+
+; o3
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42C1&MI_01
+; o,e
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7090&MI_01
+; g
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41C3&MI_01
+; ft
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41E5&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7092&MI_02
+
+; g,o3 
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41E7&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41E9&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41EA&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41EC&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41ED&MI_03
+; c
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DD3&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DD4&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2DD5&MI_02
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_2DD9
+; o/e,e
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7080&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7082&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7087&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_7089&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_708B&MI_04
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_708C
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_70AC
+; s
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4284&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4286&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_4289&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_428B&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_428C&MI_01
+; d2
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42A2&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42A4&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42A7&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42A9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42AA&MI_01
+; dp
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42B2&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42B4&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42B7&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42B9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42BA&MI_01
+; v2
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42C2&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42C4&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42C7&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42C9&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_42CA&MI_01
+;Calgary
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D7B&MI_03
+
+;Calgary
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D74&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D75&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D76&MI_02
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D7B&MI_03
+
+;Morrison
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_2D62
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D61&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D64&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D66&MI_00
+;sholes umts
+%MotSingleInterface%    = motandroidusb.Dev, USB\VID_22B8&PID_41D1
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41D2
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41DA&MI_04
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41DB&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41DC&MI_01
+;Sholes CDMA
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41DB&MI_01
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41E2&MI_04
+;Morrison/Motus/Zepplin
+%MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D68&MI_01
 
 [USB_Install]
 Include = winusb.inf
