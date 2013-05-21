@@ -34,12 +34,6 @@ HKR,,Icon,,-1
 %Nook%        = USB_Install, USB\VID_2080&PID_0002
 %Nook%     = USB_Install, USB\VID_2080&PID_0002&MI_01
 
-;LG Nexus 4
-%GoogleNexus4ADBInterface%						= USB_Install, USB\VID_18D1&PID_4EE2&REV_0228&MI_01
-%GoogleNexus4ADBInterface%						= USB_Install, USB\VID_18D1&PID_4EE2&MI_01
-%GoogleNexus4BootLoaderInterface%					= USB_Install, USB\VID_18D1&PID_4EE0&REV_0100
-%GoogleNexus4BootLoaderInterface%					= USB_Install, USB\VID_18D1&PID_4EE0
-
 ;Google Nexus (generic)
 %GoogleNexusBootLoaderInterface% 					= USB_Install, USB\VID_18D1&PID_4EE0
 %GoogleNexusADBInterface%        					= USB_Install, USB\VID_18D1&PID_4EE1
@@ -833,12 +827,6 @@ HKR,,Icon,,-1
 ;B & N Nook Color
 %Nook%        = USB_Install, USB\VID_2080&PID_0002
 %Nook%     = USB_Install, USB\VID_2080&PID_0002&MI_01
-
-;LG Nexus 4
-%GoogleNexus4ADBInterface%						= USB_Install, USB\VID_18D1&PID_4EE2&REV_0228&MI_01
-%GoogleNexus4ADBInterface%						= USB_Install, USB\VID_18D1&PID_4EE2&MI_01
-%GoogleNexus4BootLoaderInterface%					= USB_Install, USB\VID_18D1&PID_4EE0&REV_0100
-%GoogleNexus4BootLoaderInterface%					= USB_Install, USB\VID_18D1&PID_4EE0
 
 ;Google Nexus (generic)
 %GoogleNexusBootLoaderInterface% 					= USB_Install, USB\VID_18D1&PID_4EE0
@@ -1688,10 +1676,6 @@ APXBootLoaderInterface					= "APX Android Bootloader Interface"
 
 ; Generic Samsung ADB Interface
 Samsung									= "Samsung Android Interface"
-
-; Google Nexus 4
-GoogleNexus4BootLoaderInterface				= "Google Nexus 4 BootLoader Interface"
-GoogleNexus4ADBInterface				= "Google Nexus 4 ADB Interface"
 
 ; Google Nexus Generic
 GoogleNexusBootLoaderInterface				= "Google Nexus BootLoader Interface"
