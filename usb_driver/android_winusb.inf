@@ -816,6 +816,10 @@ HKR,,Icon,,-1
 ;Morrison/Motus/Zepplin
 %MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D68&MI_01
 
+;SONY Sony Tablet P 
+%CompositeAdbInterface%&nbsp;&nbsp;&nbsp;&nbsp; = USB_Install, USB\VID_054C&PID_04D2&MI_01 
+;SONY Sony Tablet S 
+%CompositeAdbInterface%&nbsp;&nbsp;&nbsp;&nbsp; = USB_Install, USB\VID_054C&PID_05B4&MI_01
 
 
 [ClockworkMod.NTamd64]
@@ -1609,6 +1613,12 @@ HKR,,Icon,,-1
 %MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_41E2&MI_04
 ;Morrison/Motus/Zepplin
 %MotCompositeInterface% = motandroidusb.Dev, USB\VID_22B8&PID_2D68&MI_01
+
+;SONY Sony Tablet P 
+%CompositeAdbInterface%&nbsp;&nbsp;&nbsp;&nbsp; = USB_Install, USB\VID_054C&PID_04D2&MI_01 
+;SONY Sony Tablet S 
+%CompositeAdbInterface%&nbsp;&nbsp;&nbsp;&nbsp; = USB_Install, USB\VID_054C&PID_05B4&MI_01
+
 
 [USB_Install]
 Include = winusb.inf
