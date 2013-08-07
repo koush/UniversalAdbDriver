@@ -6,7 +6,7 @@ Signature			= "$Windows NT$"
 Class				= AndroidUsbDeviceClass
 ClassGuid			= {3F966BD9-FA04-4ec5-991C-D326973B5128}
 Provider			= %ProviderName%
-DriverVer           = 08/27/2012,7.0.0000.00002
+DriverVer           = 08/27/2012,7.0.0000.00004
 CatalogFile.NTx86	= androidwinusb86.cat
 CatalogFile.NTamd64	= androidwinusba64.cat
 
@@ -823,6 +823,8 @@ HKR,,Icon,,-1
 
 %Huawei%								= USB_Install, USB\VID_22DA&PID_0C03&REV_0255&MI_01
 %Huawei%								= USB_Install, USB\VID_22DA&PID_0C03&MI_01
+%Huawei%								= USB_Install, USB\VID_12D1&PID_1038&REV_0231&MI_01
+%Huawei%								= USB_Install, USB\VID_12D1&PID_1038&MI_01
 
 [ClockworkMod.NTamd64]
 
@@ -1624,6 +1626,8 @@ HKR,,Icon,,-1
 
 %Huawei%								= USB_Install, USB\VID_22DA&PID_0C03&REV_0255&MI_01
 %Huawei%								= USB_Install, USB\VID_22DA&PID_0C03&MI_01
+%Huawei%								= USB_Install, USB\VID_12D1&PID_1038&REV_0231&MI_01
+%Huawei%								= USB_Install, USB\VID_12D1&PID_1038&MI_01
 
 [USB_Install]
 Include = winusb.inf
