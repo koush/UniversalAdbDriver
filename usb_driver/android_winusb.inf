@@ -827,6 +827,26 @@ HKR,,Icon,,-1
 %Huawei%								= USB_Install, USB\VID_12D1&PID_1038&REV_0231&MI_01
 %Huawei%								= USB_Install, USB\VID_12D1&PID_1038&MI_01
 
+;LG P99x
+%LG%                   = USB_Install, USB\VID_1004&PID_618E
+%LG%                   = USB_Install, USB\VID_1004&PID_618E&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_61A6
+%LG%                   = USB_Install, USB\VID_1004&PID_61A6&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_61D9
+%LG%                   = USB_Install, USB\VID_1004&PID_61D9&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_61F9
+%LG%                   = USB_Install, USB\VID_1004&PID_61F9&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_61FA
+%LG%                   = USB_Install, USB\VID_1004&PID_61FA&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_631C
+%LG%                   = USB_Install, USB\VID_1004&PID_631C&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_6866
+%LG%                   = USB_Install, USB\VID_1004&PID_6866&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_D001
+%LG%                   = USB_Install, USB\VID_1004&PID_D001&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_D10A
+%LG%                   = USB_Install, USB\VID_1004&PID_D10A&MI_01
+
 [ClockworkMod.NTamd64]
 
 ;Nook
@@ -1630,6 +1650,26 @@ HKR,,Icon,,-1
 %Huawei%								= USB_Install, USB\VID_12D1&PID_1038&REV_0231&MI_01
 %Huawei%								= USB_Install, USB\VID_12D1&PID_1038&MI_01
 
+;LG P99x
+%LG%                   = USB_Install, USB\VID_1004&PID_618E
+%LG%                   = USB_Install, USB\VID_1004&PID_618E&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_61A6
+%LG%                   = USB_Install, USB\VID_1004&PID_61A6&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_61D9
+%LG%                   = USB_Install, USB\VID_1004&PID_61D9&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_61F9
+%LG%                   = USB_Install, USB\VID_1004&PID_61F9&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_61FA
+%LG%                   = USB_Install, USB\VID_1004&PID_61FA&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_631C
+%LG%                   = USB_Install, USB\VID_1004&PID_631C&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_6866
+%LG%                   = USB_Install, USB\VID_1004&PID_6866&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_D001
+%LG%                   = USB_Install, USB\VID_1004&PID_D001&MI_01
+%LG%                   = USB_Install, USB\VID_1004&PID_D10A
+%LG%                   = USB_Install, USB\VID_1004&PID_D10A&MI_01
+
 [USB_Install]
 Include = winusb.inf
 Needs   = WINUSB.NT
@@ -1740,4 +1780,7 @@ MotCompositeInterface	= "Mot Composite ADB Interface"
 
 ; Huawei Interface
 Huawei                  = "Huawei Android Interface"
+
+; LG Interface
+LG                  = "LG Android Interface"
 
