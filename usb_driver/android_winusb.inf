@@ -847,6 +847,10 @@ HKR,,Icon,,-1
 %LG%                   = USB_Install, USB\VID_1004&PID_D10A
 %LG%                   = USB_Install, USB\VID_1004&PID_D10A&MI_01
 
+;Spreadtrum
+%Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&REV_0229&MI_01
+%Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&MI_01
+
 [ClockworkMod.NTamd64]
 
 ;Nook
@@ -1670,6 +1674,10 @@ HKR,,Icon,,-1
 %LG%                   = USB_Install, USB\VID_1004&PID_D10A
 %LG%                   = USB_Install, USB\VID_1004&PID_D10A&MI_01
 
+;Spreadtrum
+%Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&REV_0229&MI_01
+%Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&MI_01
+
 [USB_Install]
 Include = winusb.inf
 Needs   = WINUSB.NT
@@ -1784,3 +1792,5 @@ Huawei                  = "Huawei Android Interface"
 ; LG Interface
 LG                  = "LG Android Interface"
 
+; Spreadtrum Interface
+Spreadtrum              = "Spreadtrum Android Interface"
