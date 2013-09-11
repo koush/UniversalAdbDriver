@@ -62,6 +62,8 @@ HKR,,Icon,,-1
 
 ; Samsung Android Interface
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0228&MI_01
+%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6860&REV_0400&MI_03
+%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0226&MI_01
 
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_685D&ADB
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_685E&ADB
@@ -882,6 +884,8 @@ HKR,,Icon,,-1
 
 ; Samsung Android Interface
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0228&MI_01
+%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6860&REV_0400&MI_03
+%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0226&MI_01
 
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_685D&ADB
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_685E&ADB
