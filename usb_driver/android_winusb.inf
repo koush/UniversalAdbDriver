@@ -61,6 +61,17 @@ HKR,,Icon,,-1
 %GoogleNexusQADBInterface%        					= USB_Install, USB\VID_18D1&PID_2C11
 
 ; Samsung Android Interface
+%Samsung%     = USB_Install, USB\VID_04E8&PID_685D
+%Samsung%     = USB_Install, USB\VID_04E8&PID_685E
+%Samsung%     = USB_Install, USB\VID_04E8&PID_6860
+%Samsung%     = USB_Install, USB\VID_04E8&PID_6861
+%Samsung%     = USB_Install, USB\VID_04E8&PID_6862
+%Samsung%     = USB_Install, USB\VID_04E8&PID_6864
+%Samsung%     = USB_Install, USB\VID_04E8&PID_6866
+%Samsung%     = USB_Install, USB\VID_04E8&PID_6867
+%Samsung%     = USB_Install, USB\VID_04E8&PID_6868
+%Samsung%     = USB_Install, USB\SAMSUNG_MOBILE
+
 %Samsung%     = USB_Install, USB\VID_04E8&PID_685D&ADB
 %Samsung%     = USB_Install, USB\VID_04E8&PID_685E&ADB
 %Samsung%     = USB_Install, USB\VID_04E8&PID_6860&ADB
@@ -879,6 +890,17 @@ HKR,,Icon,,-1
 %GoogleNexusQADBInterface%        					= USB_Install, USB\VID_18D1&PID_2C11
 
 ; Samsung Android Interface
+%Samsung%     = USB_Install, USB\VID_04E8&PID_685D
+%Samsung%     = USB_Install, USB\VID_04E8&PID_685E
+%Samsung%     = USB_Install, USB\VID_04E8&PID_6860
+%Samsung%     = USB_Install, USB\VID_04E8&PID_6861
+%Samsung%     = USB_Install, USB\VID_04E8&PID_6862
+%Samsung%     = USB_Install, USB\VID_04E8&PID_6864
+%Samsung%     = USB_Install, USB\VID_04E8&PID_6866
+%Samsung%     = USB_Install, USB\VID_04E8&PID_6867
+%Samsung%     = USB_Install, USB\VID_04E8&PID_6868
+%Samsung%     = USB_Install, USB\SAMSUNG_MOBILE
+
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_685D&ADB
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_685E&ADB
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6860&ADB
