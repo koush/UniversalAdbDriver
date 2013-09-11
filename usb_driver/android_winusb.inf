@@ -68,6 +68,7 @@ HKR,,Icon,,-1
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6862
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6864
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866
+%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0228&MI_01
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6867
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6868
 %Samsung%     = USB_Install_17, USB\SAMSUNG_MOBILE
@@ -79,6 +80,7 @@ HKR,,Icon,,-1
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6862&ADB
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6864&ADB
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&ADB
+%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&ADB&REV_0228&MI_01
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6867&ADB
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6868&ADB
 %Samsung%     = USB_Install_17, USB\SAMSUNG_MOBILE&ADB
@@ -897,6 +899,7 @@ HKR,,Icon,,-1
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6862
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6864
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866
+%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0228&MI_01
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6867
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6868
 %Samsung%     = USB_Install_17, USB\SAMSUNG_MOBILE
@@ -908,6 +911,7 @@ HKR,,Icon,,-1
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6862&ADB
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6864&ADB
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&ADB
+%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&ADB&REV_0228&MI_01
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6867&ADB
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6868&ADB
 %Samsung%     = USB_Install_17, USB\SAMSUNG_MOBILE&ADB
