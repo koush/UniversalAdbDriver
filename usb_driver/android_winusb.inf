@@ -821,6 +821,8 @@ HKR,,Icon,,-1
 %Huawei%								= USB_Install, USB\VID_22DA&PID_0C03&MI_01
 %Huawei%								= USB_Install, USB\VID_12D1&PID_1038&REV_0231&MI_01
 %Huawei%								= USB_Install, USB\VID_12D1&PID_1038&MI_01
+%Huawei%								= USB_Install, USB\VID_12D1&PID_1054&REV_0231&MI_01
+%Huawei%								= USB_Install, USB\VID_12D1&PID_1054&MI_01
 
 ;LG P99x
 %LG%                   = USB_Install, USB\VID_1004&PID_618E
@@ -845,6 +847,14 @@ HKR,,Icon,,-1
 ;Spreadtrum
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&REV_0229&MI_01
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&MI_01
+
+; Xiaomi
+%Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&REV_0228&MI_01
+%Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&MI_01
+
+;Lenovo
+%Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&REV_0255&MI_01
+%Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&MI_01
 
 [ClockworkMod.NTamd64]
 
@@ -1642,6 +1652,8 @@ HKR,,Icon,,-1
 %Huawei%								= USB_Install, USB\VID_22DA&PID_0C03&MI_01
 %Huawei%								= USB_Install, USB\VID_12D1&PID_1038&REV_0231&MI_01
 %Huawei%								= USB_Install, USB\VID_12D1&PID_1038&MI_01
+%Huawei%								= USB_Install, USB\VID_12D1&PID_1054&REV_0231&MI_01
+%Huawei%								= USB_Install, USB\VID_12D1&PID_1054&MI_01
 
 ;LG P99x
 %LG%                   = USB_Install, USB\VID_1004&PID_618E
@@ -1666,6 +1678,14 @@ HKR,,Icon,,-1
 ;Spreadtrum
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&REV_0229&MI_01
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&MI_01
+
+; Xiaomi
+%Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&REV_0228&MI_01
+%Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&MI_01
+
+;Lenovo
+%Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&REV_0255&MI_01
+%Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&MI_01
 
 [USB_Install]
 Include = winusb.inf
@@ -1816,3 +1836,9 @@ LG                  = "LG Android Interface"
 
 ; Spreadtrum Interface
 Spreadtrum              = "Spreadtrum Android Interface"
+
+; Xiaomi Interface
+Xiaomi              = "Xiaomi Android Interface"
+
+; Lenovo Interface
+Lenovo              = "Lenovo Android Interface"
