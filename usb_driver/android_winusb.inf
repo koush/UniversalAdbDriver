@@ -61,6 +61,7 @@ HKR,,Icon,,-1
 %GoogleNexusQADBInterface%        					= USB_Install, USB\VID_18D1&PID_2C11
 
 ; Samsung Android Interface
+%Samsung%     = USB_Install_17, USB\VID_04E8&PID_685E&REV_0400&MI_03
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0228&MI_01
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6860&REV_0400&MI_03
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0226&MI_01
@@ -891,6 +892,7 @@ HKR,,Icon,,-1
 %GoogleNexusQADBInterface%        					= USB_Install, USB\VID_18D1&PID_2C11
 
 ; Samsung Android Interface
+%Samsung%     = USB_Install_17, USB\VID_04E8&PID_685E&REV_0400&MI_03
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0228&MI_01
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6860&REV_0400&MI_03
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0226&MI_01
