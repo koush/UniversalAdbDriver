@@ -885,6 +885,7 @@ HKR,,Icon,,-1
 %GoogleNexusOneADBInterface%     					= USB_Install, USB\VID_18D1&PID_4E12&MI_01
 
 ;Google Nexus S
+%GoogleNexusSBootLoaderInterface%        		  = USB_Install, USB\VID_18D1&PID_4E20&REV_0100
 %GoogleNexusSADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E21
 %GoogleNexusSADBInterface%     						= USB_Install, USB\VID_18D1&PID_4E22&MI_01
 %GoogleNexusSADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E23
