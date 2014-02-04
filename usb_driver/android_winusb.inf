@@ -1683,6 +1683,10 @@ HKR,,Icon,,-1
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&REV_0229&MI_01
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&MI_01
 
+;ViewSonic
+%ViewSonic%				= USB_Install, USB\VID_0408&PID_3998&REV_0216&MI_01
+%ViewSonic%				= USB_Install, USB\VID_0408&PID_3998&MI_01
+
 ; Xiaomi
 %Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&REV_0228&MI_01
 %Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&MI_01
@@ -1850,6 +1854,9 @@ Xiaomi              = "Xiaomi Android Interface"
 
 ; Lenovo Interface
 Lenovo              = "Lenovo Android Interface"
+
+; View Sonic Interface
+ViewSonic = "View Sonic ADB Interface"
 
 ; Google Glass Interface
 GoogleGlassBootLoaderInterface              = "Google Glass Bootloader Interface"
