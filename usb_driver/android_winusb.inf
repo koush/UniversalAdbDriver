@@ -51,6 +51,7 @@ HKR,,Icon,,-1
 %GoogleNexusOneADBInterface%     					= USB_Install, USB\VID_18D1&PID_4E12&MI_01
 
 ;Google Nexus S
+%GoogleNexusSBootLoaderInterface%        		  = USB_Install, USB\VID_18D1&PID_4E20&REV_0100
 %GoogleNexusSADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E21
 %GoogleNexusSADBInterface%     						= USB_Install, USB\VID_18D1&PID_4E22&MI_01
 %GoogleNexusSADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E23
@@ -846,6 +847,10 @@ HKR,,Icon,,-1
 ;Spreadtrum
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&REV_0229&MI_01
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&MI_01
+
+;ViewSonic
+%ViewSonic%				= USB_Install, USB\VID_0408&PID_3998&REV_0216&MI_01
+%ViewSonic%				= USB_Install, USB\VID_0408&PID_3998&MI_01
 
 ; Xiaomi
 %Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&REV_0228&MI_01
@@ -882,6 +887,7 @@ HKR,,Icon,,-1
 %GoogleNexusOneADBInterface%     					= USB_Install, USB\VID_18D1&PID_4E12&MI_01
 
 ;Google Nexus S
+%GoogleNexusSBootLoaderInterface%        		  = USB_Install, USB\VID_18D1&PID_4E20&REV_0100
 %GoogleNexusSADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E21
 %GoogleNexusSADBInterface%     						= USB_Install, USB\VID_18D1&PID_4E22&MI_01
 %GoogleNexusSADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E23
@@ -1677,6 +1683,10 @@ HKR,,Icon,,-1
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&REV_0229&MI_01
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&MI_01
 
+;ViewSonic
+%ViewSonic%				= USB_Install, USB\VID_0408&PID_3998&REV_0216&MI_01
+%ViewSonic%				= USB_Install, USB\VID_0408&PID_3998&MI_01
+
 ; Xiaomi
 %Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&REV_0228&MI_01
 %Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&MI_01
@@ -1684,6 +1694,10 @@ HKR,,Icon,,-1
 ;Lenovo
 %Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&REV_0255&MI_01
 %Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&MI_01
+
+;Google Glass
+%GoogleGlassBootLoaderInterface%                                        = USB_Install, USB\VID_0451&PID_D022&REV_0100
+%GoogleGlassADBInterface%                                               = USB_Install, USB\VID_18D1&PID_9001&REV_0216&MI_01
 
 [USB_Install]
 Include = winusb.inf
@@ -1840,3 +1854,10 @@ Xiaomi              = "Xiaomi Android Interface"
 
 ; Lenovo Interface
 Lenovo              = "Lenovo Android Interface"
+
+; View Sonic Interface
+ViewSonic = "View Sonic ADB Interface"
+
+; Google Glass Interface
+GoogleGlassBootLoaderInterface              = "Google Glass Bootloader Interface"
+GoogleGlassADBInterface              = "Google Glass ADB Interface"
