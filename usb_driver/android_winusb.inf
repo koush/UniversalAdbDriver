@@ -84,8 +84,6 @@ HKR,,Icon,,-1
 %SamsungGalaxyNexusBootLoaderInterface%					= USB_Install, USB\VID_18D1&PID_4E30&MI_01
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_18D1&PID_D001
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_18D1&PID_D001&REV_0216
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_6860&REV_0216&MI_01
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_6860&MI_01
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_685C&REV_0216
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_685C
 
@@ -572,6 +570,12 @@ HKR,,Icon,,-1
 
 
 ;Motorola
+; Moto G
+%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E84&MI_01
+
+; Moto X
+%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E65&MI_01
+
 ; h
 %MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B6&MI_01
 %MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B8&MI_01
@@ -921,8 +925,6 @@ HKR,,Icon,,-1
 %SamsungGalaxyNexusBootLoaderInterface%					= USB_Install, USB\VID_18D1&PID_4E30&MI_01
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_18D1&PID_D001
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_18D1&PID_D001&REV_0216
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_6860&REV_0216&MI_01
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_6860&MI_01
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_685C&REV_0216
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_685C
 
@@ -1409,6 +1411,12 @@ HKR,,Icon,,-1
 
 
 ;Motorola
+; Moto G
+%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E84&MI_01
+
+; Moto X
+%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E65&MI_01
+
 ; h
 %MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B6&MI_01
 %MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B8&MI_01
