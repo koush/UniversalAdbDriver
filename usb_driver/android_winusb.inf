@@ -572,6 +572,7 @@ HKR,,Icon,,-1
 ;Motorola
 ; Moto G
 %MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E84&MI_01
+%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E80
 
 ; Moto X
 %MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E65&MI_01
@@ -1413,6 +1414,7 @@ HKR,,Icon,,-1
 ;Motorola
 ; Moto G
 %MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E84&MI_01
+%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E80
 
 ; Moto X
 %MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E65&MI_01
