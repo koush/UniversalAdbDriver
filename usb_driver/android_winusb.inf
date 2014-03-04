@@ -114,6 +114,9 @@ HKR,,Icon,,-1
 %AsusFastbootInterface%				= USB_Install, USB\VID_0B05&PID_4DAF
 %AsusFastbootInterface%				= USB_Install, USB\VID_0B05&PID_4DAF&REV_0000
 
+;Dell
+%DellCC% = USB_Install, USB\VID_413C&PID_1A01&REV_0231&MI_01
+%DellCC% = USB_Install, USB\VID_413C&PID_1A01&MI_01
 
 ; HTC Android Interface
 %HTC%									= USB_Install, USB\VID_0BB4&PID_0C01&MI_01
@@ -956,6 +959,9 @@ HKR,,Icon,,-1
 %AsusFastbootInterface%				= USB_Install, USB\VID_0B05&PID_4DAF
 %AsusFastbootInterface%				= USB_Install, USB\VID_0B05&PID_4DAF&REV_0000
 
+;Dell
+%DellCC% = USB_Install, USB\VID_413C&PID_1A01&REV_0231&MI_01
+%DellCC% = USB_Install, USB\VID_413C&PID_1A01&MI_01
 
 ; HTC Android Interface
 %HTC%									= USB_Install, USB\VID_0BB4&PID_0C01&MI_01
@@ -1843,6 +1849,9 @@ AsusTransformerADBInterface				= "Asus Transformer ADB Interface"
 
 ; Asus Eee Pad Slider SL101
 AsusEeePadSliderADBInterface				= "Asus Eee Pad Slider ADB Interface"
+
+; Dell Cloud Connect
+DellCC = "Dell Cloud Connect"
 
 ; Generic HTC Interface
 HTC        						= "HTC Android Interface"
