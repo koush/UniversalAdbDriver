@@ -1890,10 +1890,6 @@ Lenovo              = "Lenovo Android Interface"
 ; View Sonic Interface
 ViewSonic = "View Sonic ADB Interface"
 
-
-; Dell Cloud Connect
-DellCC = "Dell Cloud Connect"
-
 ; Google Glass Interface
 GoogleGlassBootLoaderInterface              = "Google Glass Bootloader Interface"
 GoogleGlassADBInterface              = "Google Glass ADB Interface"
