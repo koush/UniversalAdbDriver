@@ -870,6 +870,10 @@ HKR,,Icon,,-1
 %Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&REV_0255&MI_01
 %Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&MI_01
 
+;ZTE Valet
+%ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&REV_0233&MI_01
+%ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&MI_01
+
 [ClockworkMod.NTamd64]
 
 ;Nook
@@ -1719,6 +1723,11 @@ HKR,,Icon,,-1
 %GoogleGlassBootLoaderInterface%                                        = USB_Install, USB\VID_0451&PID_D022&REV_0100
 %GoogleGlassADBInterface%                                               = USB_Install, USB\VID_18D1&PID_9001&REV_0216&MI_01
 
+;ZTE Valet
+%ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&REV_0233&MI_01
+%ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&MI_01
+
+
 [USB_Install]
 Include = winusb.inf
 Needs   = WINUSB.NT
@@ -1884,3 +1893,6 @@ ViewSonic = "View Sonic ADB Interface"
 ; Google Glass Interface
 GoogleGlassBootLoaderInterface              = "Google Glass Bootloader Interface"
 GoogleGlassADBInterface              = "Google Glass ADB Interface"
+
+;ZTE
+ZTEValet = "ZTE Valet/Z665C ADB Interface"
