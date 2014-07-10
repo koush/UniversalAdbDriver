@@ -874,6 +874,11 @@ HKR,,Icon,,-1
 %ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&REV_0233&MI_01
 %ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&MI_01
 
+;If there is no suitable configuration up here, compatible ID is also useable
+%CompositeAdbInterface% = USB_Install, USB\Class_FF&SubClass_42&Prot_01
+%SingleAdbInterface% = USB_Install, USB\Class_FF&SubClass_42&Prot_03
+
+
 [ClockworkMod.NTamd64]
 
 ;Nook
@@ -1726,6 +1731,10 @@ HKR,,Icon,,-1
 ;ZTE Valet
 %ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&REV_0233&MI_01
 %ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&MI_01
+
+;If there is no suitable configuration up here, compatible ID is also useable
+%CompositeAdbInterface% = USB_Install, USB\Class_FF&SubClass_42&Prot_01
+%SingleAdbInterface% = USB_Install, USB\Class_FF&SubClass_42&Prot_03
 
 
 [USB_Install]
