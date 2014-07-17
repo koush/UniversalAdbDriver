@@ -14,7 +14,7 @@ A single Windows driver that supports the ADB (and fastboot) interface for most 
 Adb 驱动本身就是能用的，不同的设备的区别在于 .inf 文件中的 VID 和PID 以及接口不同，如果你使用compatible ID 的话就可以把驱动变成通用驱动。
 如下所示：
 
-%CompositeAdbInterface% = USB_Install, USB\Class_FF&SubClass_42&Prot_01
+%CompositeAdbInterface% = USB_Install, USB\Class_FF&SubClass_42&Prot_01  
 %SingleAdbInterface% = USB_Install, USB\Class_FF&SubClass_42&Prot_03
 
 这样做存在的不足是，在用inf2cat.exe 从inf生成cat的时候，会出错，但是有一个工具可以完成。
