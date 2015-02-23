@@ -51,6 +51,7 @@ HKR,,Icon,,-1
 %GoogleNexusOneADBInterface%     					= USB_Install, USB\VID_18D1&PID_4E12&MI_01
 
 ;Google Nexus S
+%GoogleNexusSBootLoaderInterface%        		  = USB_Install, USB\VID_18D1&PID_4E20&REV_0100
 %GoogleNexusSADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E21
 %GoogleNexusSADBInterface%     						= USB_Install, USB\VID_18D1&PID_4E22&MI_01
 %GoogleNexusSADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E23
@@ -61,8 +62,10 @@ HKR,,Icon,,-1
 %GoogleNexusQADBInterface%        					= USB_Install, USB\VID_18D1&PID_2C11
 
 ; Samsung Android Interface
+%Samsung%     = USB_Install_17, USB\VID_04E8&PID_685E&REV_0400&MI_03
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0228&MI_01
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6860&REV_0400&MI_03
+%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6860&REV_0228
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0226&MI_01
 
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_685D&ADB
@@ -82,8 +85,6 @@ HKR,,Icon,,-1
 %SamsungGalaxyNexusBootLoaderInterface%					= USB_Install, USB\VID_18D1&PID_4E30&MI_01
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_18D1&PID_D001
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_18D1&PID_D001&REV_0216
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_6860&REV_0216&MI_01
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_6860&MI_01
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_685C&REV_0216
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_685C
 
@@ -114,6 +115,9 @@ HKR,,Icon,,-1
 %AsusFastbootInterface%				= USB_Install, USB\VID_0B05&PID_4DAF
 %AsusFastbootInterface%				= USB_Install, USB\VID_0B05&PID_4DAF&REV_0000
 
+;Dell
+%DellCC% = USB_Install, USB\VID_413C&PID_1A01&REV_0231&MI_01
+%DellCC% = USB_Install, USB\VID_413C&PID_1A01&MI_01
 
 ; HTC Android Interface
 %HTC%									= USB_Install, USB\VID_0BB4&PID_0C01&MI_01
@@ -570,6 +574,13 @@ HKR,,Icon,,-1
 
 
 ;Motorola
+; Moto G
+%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E84&MI_01
+%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E80
+
+; Moto X
+%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E65&MI_01
+
 ; h
 %MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B6&MI_01
 %MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B8&MI_01
@@ -848,6 +859,10 @@ HKR,,Icon,,-1
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&REV_0229&MI_01
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&MI_01
 
+;ViewSonic
+%ViewSonic%				= USB_Install, USB\VID_0408&PID_3998&REV_0216&MI_01
+%ViewSonic%				= USB_Install, USB\VID_0408&PID_3998&MI_01
+
 ; Xiaomi
 %Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&REV_0228&MI_01
 %Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&MI_01
@@ -855,6 +870,10 @@ HKR,,Icon,,-1
 ;Lenovo
 %Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&REV_0255&MI_01
 %Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&MI_01
+
+;ZTE Valet
+%ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&REV_0233&MI_01
+%ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&MI_01
 
 [ClockworkMod.NTamd64]
 
@@ -883,6 +902,7 @@ HKR,,Icon,,-1
 %GoogleNexusOneADBInterface%     					= USB_Install, USB\VID_18D1&PID_4E12&MI_01
 
 ;Google Nexus S
+%GoogleNexusSBootLoaderInterface%        		  = USB_Install, USB\VID_18D1&PID_4E20&REV_0100
 %GoogleNexusSADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E21
 %GoogleNexusSADBInterface%     						= USB_Install, USB\VID_18D1&PID_4E22&MI_01
 %GoogleNexusSADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E23
@@ -893,8 +913,10 @@ HKR,,Icon,,-1
 %GoogleNexusQADBInterface%        					= USB_Install, USB\VID_18D1&PID_2C11
 
 ; Samsung Android Interface
+%Samsung%     = USB_Install_17, USB\VID_04E8&PID_685E&REV_0400&MI_03
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0228&MI_01
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6860&REV_0400&MI_03
+%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6860&REV_0228
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0226&MI_01
 
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_685D&ADB
@@ -913,8 +935,6 @@ HKR,,Icon,,-1
 %SamsungGalaxyNexusBootLoaderInterface%					= USB_Install, USB\VID_18D1&PID_4E30&MI_01
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_18D1&PID_D001
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_18D1&PID_D001&REV_0216
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_6860&REV_0216&MI_01
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_6860&MI_01
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_685C&REV_0216
 %SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_685C
 
@@ -945,6 +965,9 @@ HKR,,Icon,,-1
 %AsusFastbootInterface%				= USB_Install, USB\VID_0B05&PID_4DAF
 %AsusFastbootInterface%				= USB_Install, USB\VID_0B05&PID_4DAF&REV_0000
 
+;Dell
+%DellCC% = USB_Install, USB\VID_413C&PID_1A01&REV_0231&MI_01
+%DellCC% = USB_Install, USB\VID_413C&PID_1A01&MI_01
 
 ; HTC Android Interface
 %HTC%									= USB_Install, USB\VID_0BB4&PID_0C01&MI_01
@@ -1401,6 +1424,13 @@ HKR,,Icon,,-1
 
 
 ;Motorola
+; Moto G
+%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E84&MI_01
+%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E80
+
+; Moto X
+%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E65&MI_01
+
 ; h
 %MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B6&MI_01
 %MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B8&MI_01
@@ -1679,6 +1709,10 @@ HKR,,Icon,,-1
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&REV_0229&MI_01
 %Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&MI_01
 
+;ViewSonic
+%ViewSonic%				= USB_Install, USB\VID_0408&PID_3998&REV_0216&MI_01
+%ViewSonic%				= USB_Install, USB\VID_0408&PID_3998&MI_01
+
 ; Xiaomi
 %Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&REV_0228&MI_01
 %Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&MI_01
@@ -1686,6 +1720,15 @@ HKR,,Icon,,-1
 ;Lenovo
 %Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&REV_0255&MI_01
 %Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&MI_01
+
+;Google Glass
+%GoogleGlassBootLoaderInterface%                                        = USB_Install, USB\VID_0451&PID_D022&REV_0100
+%GoogleGlassADBInterface%                                               = USB_Install, USB\VID_18D1&PID_9001&REV_0216&MI_01
+
+;ZTE Valet
+%ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&REV_0233&MI_01
+%ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&MI_01
+
 
 [USB_Install]
 Include = winusb.inf
@@ -1818,6 +1861,9 @@ AsusTransformerADBInterface				= "Asus Transformer ADB Interface"
 ; Asus Eee Pad Slider SL101
 AsusEeePadSliderADBInterface				= "Asus Eee Pad Slider ADB Interface"
 
+; Dell Cloud Connect
+DellCC = "Dell Cloud Connect"
+
 ; Generic HTC Interface
 HTC        						= "HTC Android Interface"
 
@@ -1842,3 +1888,13 @@ Xiaomi              = "Xiaomi Android Interface"
 
 ; Lenovo Interface
 Lenovo              = "Lenovo Android Interface"
+
+; View Sonic Interface
+ViewSonic = "View Sonic ADB Interface"
+
+; Google Glass Interface
+GoogleGlassBootLoaderInterface              = "Google Glass Bootloader Interface"
+GoogleGlassADBInterface              = "Google Glass ADB Interface"
+
+;ZTE
+ZTEValet = "ZTE Valet/Z665C ADB Interface"
