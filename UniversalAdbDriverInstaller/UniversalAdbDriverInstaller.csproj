@@ -8,8 +8,8 @@
     <ProjectGuid>{5EE126D2-7CB8-4985-82FB-5F44B06210AE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UniveralAdbDriverInstaller</RootNamespace>
-    <AssemblyName>UniveralAdbDriverInstaller</AssemblyName>
+    <RootNamespace>UniversalAdbDriverInstaller</RootNamespace>
+    <AssemblyName>UniversalAdbDriverInstaller</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,9 +32,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationManifest>UniversalAdbDriverInstaller.exe.manifest</ApplicationManifest>
-  </PropertyGroup>
+  <PropertyGroup />
   <PropertyGroup>
     <StartupObject />
   </PropertyGroup>

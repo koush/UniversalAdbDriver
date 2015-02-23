@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UniversalAdbDriverSetup", "UniversalAdbDriverSetup\UniversalAdbDriverSetup.vdproj", "{98CABC65-4F94-47A5-9C79-C6013A09A690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniveralAdbDriverInstaller", "UniveralAdbDriverInstaller\UniveralAdbDriverInstaller.csproj", "{5EE126D2-7CB8-4985-82FB-5F44B06210AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalAdbDriverInstaller", "UniversalAdbDriverInstaller\UniversalAdbDriverInstaller.csproj", "{5EE126D2-7CB8-4985-82FB-5F44B06210AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
