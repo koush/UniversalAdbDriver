@@ -26,6 +26,11 @@ HKR,,Icon,,-1
 %ProviderName%		= ClockworkMod, NTx86, NTamd64
 
 [ClockworkMod.NTx86]
+
+;OnePlus One
+%SingleAdbInterface% = USB_Install, USB\VID_05C6&PID_6769
+%CompositeAdbInterface% = USB_Install, USB\VID_05C6&PID_6769&REV_0232
+
 ;Nook
 %Nook%     = USB_Install, USB\VID_18D1&PID_0001
 %Nook%     = USB_Install, USB\VID_18D1&PID_0001&MI_00
@@ -875,6 +880,10 @@ HKR,,Icon,,-1
 %ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&MI_01
 
 [ClockworkMod.NTamd64]
+
+;OnePlus One
+%SingleAdbInterface% = USB_Install, USB\VID_05C6&PID_6769
+%CompositeAdbInterface% = USB_Install, USB\VID_05C6&PID_6769&REV_0232
 
 ;Nook
 %Nook%     = USB_Install, USB\VID_18D1&PID_0001
