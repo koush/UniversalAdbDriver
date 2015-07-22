@@ -48,6 +48,7 @@ HKR,,Icon,,-1
 %GoogleNexusADBInterface%     						= USB_Install, USB\VID_18D1&PID_4EE4&MI_01
 %GoogleNexusADBInterface%        					= USB_Install, USB\VID_18D1&PID_4EE5
 %GoogleNexusADBInterface%     						= USB_Install, USB\VID_18D1&PID_4EE6&MI_01
+%GoogleNexusADBInterface%        					= USB_Install, USB\VID_18D1&PID_4EE7
 
 ;Google Nexus One
 %GoogleNexusOneADBInterface%        					= USB_Install, USB\VID_18D1&PID_0D02
@@ -903,6 +904,7 @@ HKR,,Icon,,-1
 %GoogleNexusADBInterface%     						= USB_Install, USB\VID_18D1&PID_4EE4&MI_01
 %GoogleNexusADBInterface%        					= USB_Install, USB\VID_18D1&PID_4EE5
 %GoogleNexusADBInterface%     						= USB_Install, USB\VID_18D1&PID_4EE6&MI_01
+%GoogleNexusADBInterface%        					= USB_Install, USB\VID_18D1&PID_4EE7
 
 ;Google Nexus One
 %GoogleNexusOneADBInterface%        					= USB_Install, USB\VID_18D1&PID_0D02
