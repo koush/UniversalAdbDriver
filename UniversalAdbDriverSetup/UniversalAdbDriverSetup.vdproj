@@ -21,8 +21,20 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_458779F4745189039175695670151F33"
+        "OwnerKey" = "8:_35E8663D78FD4E1D93F4DD2346835FB7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_35E8663D78FD4E1D93F4DD2346835FB7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_458779F4745189039175695670151F33"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -107,13 +119,13 @@
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_7CC66C995E57468B8D0BCE845D80E58D"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_B9DD740DD0334C7E935B44020585078F"
             {
             "Name" = "8:Primary output from UniveralAdbDriverInstaller (Active)"
             "Condition" = "8:"
             "Object" = "8:_35E8663D78FD4E1D93F4DD2346835FB7"
             "FileType" = "3:2"
-            "InstallAction" = "3:1"
+            "InstallAction" = "3:2"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
@@ -144,12 +156,65 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_458779F4745189039175695670151F33"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:BouncyCastle.Crypto, Version=1.7.4114.6375, Culture=neutral, PublicKeyToken=0e99375e54769942"
+                "ScatterAssemblies"
+                {
+                    "_458779F4745189039175695670151F33"
+                    {
+                    "Name" = "8:BouncyCastle.Crypto.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:BouncyCastle.Crypto.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9CF04F2B9B024BDA8761A7C058ED92AD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
         }
         "Folder"
         {
+            "{1525181F-901A-416C-8A58-119130FE478E}:_0F96A78201F644D0B8CD3FB3ADD05D5D"
+            {
+            "Name" = "8:#1921"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:StartMenuFolder"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_DA27C795C827458F804ADB35F474377F"
+                    {
+                    "Name" = "8:ClockworkMod"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_23A7AD54E1E6499986E0516F0367745A"
+                        "Folders"
+                        {
+                        }
+                    }
+                }
+            }
             "{1525181F-901A-416C-8A58-119130FE478E}:_7CB3393A8A484882A005729B11EF4D15"
             {
             "Name" = "8:#1919"
@@ -201,7 +266,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Universal Adb Driver"
         "ProductCode" = "8:{D9C4202E-6D51-4B06-A8F1-22316E654BCA}"
-        "PackageCode" = "8:{76B13E47-E0B2-4057-BA97-D327EC2580C7}"
+        "PackageCode" = "8:{E2FD2C7B-0C6F-460B-849B-EC5F80A6EB19}"
         "UpgradeCode" = "8:{447277DA-6F14-470F-B773-62360596CF50}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -321,6 +386,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_DC3442941B4140D5807E942207579603"
+            {
+            "Name" = "8:Universal ADB Driver Installer"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_35E8663D78FD4E1D93F4DD2346835FB7"
+            "Folder" = "8:_DA27C795C827458F804ADB35F474377F"
+            "WorkingFolder" = "8:_9CF04F2B9B024BDA8761A7C058ED92AD"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
@@ -722,7 +801,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_35E8663D78FD4E1D93F4DD2346835FB7"
             {
-            "SourcePath" = "8:..\\UniveralAdbDriverInstaller\\obj\\Release\\UniveralAdbDriverInstaller.exe"
+            "SourcePath" = "8:..\\UniversalAdbDriverInstaller\\obj\\Release\\UniversalAdbDriverInstaller.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9CF04F2B9B024BDA8761A7C058ED92AD"
@@ -748,7 +827,7 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_CA2B2837EC3D4EEBAF3ACA410B731408"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_84B6C587C7C74A7798C4145E91A96BC9"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"

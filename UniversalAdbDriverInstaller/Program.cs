@@ -24,7 +24,7 @@ using Org.BouncyCastle.X509.Extension;
 
 namespace UniveralAdbDriverInstaller {
     class Program {
-        public static AsymmetricKeyParameter GenerateCACertificate(string subjectName, int keyStrength = 2048) {
+        public static X509Certificate2 GenerateCACertificate(string subjectName, int keyStrength = 2048) {
             // Generating Random Numbers
             var randomGenerator = new CryptoApiRandomGenerator();
             var random = new SecureRandom(randomGenerator);
@@ -37,7 +37,7 @@ namespace UniveralAdbDriverInstaller {
             certificateGenerator.SetSerialNumber(serialNumber);
 
             // Signature Algorithm
-            const string signatureAlgorithm = "SHA256WithRSA";
+            const string signatureAlgorithm = "SHA1WithRSA";
             certificateGenerator.SetSignatureAlgorithm(signatureAlgorithm);
 
             // Subject Public Key
@@ -89,8 +89,7 @@ namespace UniveralAdbDriverInstaller {
             store.Add(x509);
             store.Close();
 
-            return issuerKeyPair.Private;
-
+            return x509;
         }
 
         enum OemSourcEMediaType : uint {
@@ -123,14 +122,18 @@ namespace UniveralAdbDriverInstaller {
         }
 
         static private void clearCerts(X509Store store, params String[] subjectNames) {
-            store.Open(OpenFlags.ReadWrite);
-            foreach (var cert in store.Certificates) {
-                foreach (var sn in subjectNames) {
-                    if (cert.Subject == sn)
-                        store.Remove(cert);
+            try {
+                store.Open(OpenFlags.ReadWrite);
+                foreach (var cert in store.Certificates) {
+                    foreach (var sn in subjectNames) {
+                        if (cert.Subject == sn)
+                            store.Remove(cert);
+                    }
                 }
+                store.Close();
             }
-            store.Close();
+            catch (Exception) {
+            }
         }
 
         static void Main(string[] args) {
@@ -139,19 +142,54 @@ namespace UniveralAdbDriverInstaller {
             clearCerts("PrivateCertStore", StoreLocation.CurrentUser, "CN=UniversalADB");
 
             // sign the stuff
-            var caPrivKey = GenerateCACertificate("CN=UniversalADB");
+            ProcessStartInfo psi;
+            Process p;
+            var cerPath = Path.Combine(GetExecutablePath(), "UniversalADB.cer");
+#if false
+            var x509 = GenerateCACertificate("CN=UniversalADB");
+#else
+            //File.WriteAllBytes(x509.Export(X509ContentType.Pfx);
 
-            ProcessStartInfo psi = new ProcessStartInfo(Path.Combine(GetExecutablePath(), "signtool.exe"), "sign /v /s PrivateCertStore /n UniversalADB /t http://timestamp.verisign.com/scripts/timstamp.dll usb_driver\\androidwinusb86.cat");
+            psi = new ProcessStartInfo(Path.Combine(GetExecutablePath(), "makecert.exe"), "-r -pe -ss PrivateCertStore -n CN=UniversalADB \"" + cerPath + "\"");
             psi.WorkingDirectory = GetExecutablePath();
             psi.UseShellExecute = false;
             psi.CreateNoWindow = true;
-            Process.Start(psi).WaitForExit();
+            p = Process.Start(psi);
+            p.WaitForExit();
+            if (p.ExitCode != 0)
+                throw new Exception("failure to create cert");
+
+            X509Certificate2 x509 = new X509Certificate2(cerPath);
+            // Add CA certificate to Root store
+            X509Store store = new X509Store(StoreName.Root, StoreLocation.LocalMachine);
+            store.Open(OpenFlags.ReadWrite);
+            store.Add(x509);
+            store.Close();
+
+            store = new X509Store(StoreName.TrustedPublisher, StoreLocation.LocalMachine);
+            store.Open(OpenFlags.ReadWrite);
+            store.Add(x509);
+            store.Close();
+
+#endif
+            
+            psi = new ProcessStartInfo(Path.Combine(GetExecutablePath(), "signtool.exe"), "sign /v /s PrivateCertStore /n UniversalADB /t http://timestamp.verisign.com/scripts/timstamp.dll usb_driver\\androidwinusb86.cat");
+            psi.WorkingDirectory = GetExecutablePath();
+            psi.UseShellExecute = false;
+            psi.CreateNoWindow = true;
+            p = Process.Start(psi);
+            p.WaitForExit();
+            //if (p.ExitCode != 0)
+            //    throw new Exception("failure to sign 86");
 
             psi = new ProcessStartInfo(Path.Combine(GetExecutablePath(), "signtool.exe"), "sign /v /s PrivateCertStore /n UniversalADB /t http://timestamp.verisign.com/scripts/timstamp.dll usb_driver\\androidwinusba64.cat");
             psi.WorkingDirectory = GetExecutablePath();
             psi.UseShellExecute = false;
             psi.CreateNoWindow = true;
-            Process.Start(psi).WaitForExit();
+            p = Process.Start(psi);
+            p.WaitForExit();
+            //if (p.ExitCode != 0)
+            //    throw new Exception("failure to sign 64");
 
             // nuke the key from orbit, it's the only way to be sure
             clearCerts("PrivateCertStore", StoreLocation.LocalMachine, "CN=UniversalADB");
