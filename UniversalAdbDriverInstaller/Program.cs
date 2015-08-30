@@ -136,7 +136,11 @@ namespace UniveralAdbDriverInstaller {
             }
         }
 
-        static void Main(string[] args) {
+        static private void installDriver() {
+            //String manifest = "{\r\n\"name\": \"com.clockworkmod.adb\",\r\n\"description\": \"Vysor\",\r\n\"path\": \"EXE_PATH\",\r\n\"type\": \"stdio\",\r\n\"allowed_origins\": [\r\n\"chrome-extension://kplbohaahpapodpbeolplkdkaddmlokj/\",\r\n\"chrome-extension://ejlfdbijieaifbpalholclojlhhlabdc/\",\r\n\"chrome-extension://pifcolcddlhpoafkkcelddpijgekcdgl/\"\r\n]\r\n}";
+            //manifest = manifest.Replace("EXE_PATH", Path.Combine(GetExecutablePath(), "AdbNativeMessaging.exe").Replace("\\", "\\\\"));
+            //File.WriteAllText(Path.Combine(GetExecutablePath(), "nmh-manifest.json"), manifest);
+
             clearCerts(StoreName.Root, StoreLocation.LocalMachine, "CN=ClockworkMod", "CN=UniversalADB");
             clearCerts(StoreName.TrustedPublisher, StoreLocation.LocalMachine, "CN=ClockworkMod", "CN=UniversalADB");
             clearCerts("PrivateCertStore", StoreLocation.CurrentUser, "CN=UniversalADB");
@@ -172,7 +176,7 @@ namespace UniveralAdbDriverInstaller {
             store.Close();
 
 #endif
-            
+
             psi = new ProcessStartInfo(Path.Combine(GetExecutablePath(), "signtool.exe"), "sign /v /s PrivateCertStore /n UniversalADB /t http://timestamp.verisign.com/scripts/timstamp.dll usb_driver\\androidwinusb86.cat");
             psi.WorkingDirectory = GetExecutablePath();
             psi.UseShellExecute = false;
@@ -196,6 +200,10 @@ namespace UniveralAdbDriverInstaller {
 
             // install the .inf
             SetupCopyOEMInf(Path.Combine(GetExecutablePath(), "usb_driver\\android_winusb.inf"), Path.Combine(GetExecutablePath(), "usb_driver"), (uint)OemSourcEMediaType.SPOST_PATH, 0, IntPtr.Zero, 0, IntPtr.Zero, IntPtr.Zero);
+        }
+
+        static void Main(string[] args) {
+            installDriver();
         }
     }
 }

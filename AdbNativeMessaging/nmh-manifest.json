@@ -1,0 +1,13 @@
+﻿{
+  "name": "com.clockworkmod.adb",
+  "description": "Vysor",
+  "path": "AdbNativeMessaging.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension:\/\/dpngiggdglpdnjdoaefidgiigpemgage\/",
+    "chrome-extension:\/\/gpglbgbpeobllokpmeagpoagjbfknanl\/",
+    "chrome-extension:\/\/kplbohaahpapodpbeolplkdkaddmlokj\/",
+    "chrome-extension:\/\/ejlfdbijieaifbpalholclojlhhlabdc\/",
+    "chrome-extension:\/\/pifcolcddlhpoafkkcelddpijgekcdgl\/"
+  ]
+}
