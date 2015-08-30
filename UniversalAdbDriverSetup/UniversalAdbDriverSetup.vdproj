@@ -33,6 +33,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_DA1C98650B6F104858DBCE95766B0A04"
+        "OwnerKey" = "8:_0185DF96D052466DBF01A5667452F720"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_35E8663D78FD4E1D93F4DD2346835FB7"
         "MsmSig" = "8:_UNDEFINED"
@@ -47,6 +53,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_0185DF96D052466DBF01A5667452F720"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_DA1C98650B6F104858DBCE95766B0A04"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -175,8 +187,44 @@
             "AssemblyAsmDisplayName" = "8:BouncyCastle.Crypto, Version=1.7.4114.6375, Culture=neutral, PublicKeyToken=0e99375e54769942"
                 "ScatterAssemblies"
                 {
+                    "_458779F4745189039175695670151F33"
+                    {
+                    "Name" = "8:BouncyCastle.Crypto.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:BouncyCastle.Crypto.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9CF04F2B9B024BDA8761A7C058ED92AD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DA1C98650B6F104858DBCE95766B0A04"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_DA1C98650B6F104858DBCE95766B0A04"
+                    {
+                    "Name" = "8:Newtonsoft.Json.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Newtonsoft.Json.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9CF04F2B9B024BDA8761A7C058ED92AD"
@@ -272,15 +320,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Universal Adb Driver"
-        "ProductCode" = "8:{5D9442CB-F7AA-4E2B-B5A6-E49ACD6A133B}"
-        "PackageCode" = "8:{E3242323-6254-4128-8579-DB02821760F8}"
+        "ProductCode" = "8:{99687796-138F-4919-B96F-30A951C74473}"
+        "PackageCode" = "8:{829C5E34-8283-45BD-835B-06304F30110E}"
         "UpgradeCode" = "8:{447277DA-6F14-470F-B773-62360596CF50}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.1"
+        "ProductVersion" = "8:1.0.2"
         "Manufacturer" = "8:ClockworkMod"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
