@@ -4,6 +4,7 @@
   "path": "AdbNativeMessaging.exe",
   "type": "stdio",
   "allowed_origins": [
+    "chrome-extension:\/\/gidgenkbbabolejbgbpnhbimgjbffefm\/",
     "chrome-extension:\/\/njhehnieenekbompacofnhlljnobgcga\/",
     "chrome-extension:\/\/gpglbgbpeobllokpmeagpoagjbfknanl\/",
     "chrome-extension:\/\/kplbohaahpapodpbeolplkdkaddmlokj\/",

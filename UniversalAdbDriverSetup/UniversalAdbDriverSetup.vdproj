@@ -46,7 +46,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_458779F4745189039175695670151F33"
+        "OwnerKey" = "8:_DA1C98650B6F104858DBCE95766B0A04"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -58,7 +58,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DA1C98650B6F104858DBCE95766B0A04"
+        "OwnerKey" = "8:_458779F4745189039175695670151F33"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -187,11 +187,6 @@
             "AssemblyAsmDisplayName" = "8:BouncyCastle.Crypto, Version=1.7.4114.6375, Culture=neutral, PublicKeyToken=0e99375e54769942"
                 "ScatterAssemblies"
                 {
-                    "_458779F4745189039175695670151F33"
-                    {
-                    "Name" = "8:BouncyCastle.Crypto.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:BouncyCastle.Crypto.dll"
             "TargetName" = "8:"
@@ -218,11 +213,6 @@
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_DA1C98650B6F104858DBCE95766B0A04"
-                    {
-                    "Name" = "8:Newtonsoft.Json.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Newtonsoft.Json.dll"
             "TargetName" = "8:"
@@ -260,7 +250,7 @@
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_DA27C795C827458F804ADB35F474377F"
                     {
                     "Name" = "8:ClockworkMod"
-                    "AlwaysCreate" = "11:FALSE"
+                    "AlwaysCreate" = "11:TRUE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
                     "Property" = "8:_23A7AD54E1E6499986E0516F0367745A"
@@ -320,15 +310,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Universal Adb Driver"
-        "ProductCode" = "8:{E84C3D0D-FAA5-481D-A2AF-02EDC8C17A30}"
-        "PackageCode" = "8:{29B20316-D179-460D-8BAC-43AE1D779418}"
+        "ProductCode" = "8:{C0E08D8D-6076-4117-B644-2AF34F35B757}"
+        "PackageCode" = "8:{53CCCD98-E18D-4D18-84AF-03496717791B}"
         "UpgradeCode" = "8:{447277DA-6F14-470F-B773-62360596CF50}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.3"
+        "ProductVersion" = "8:1.0.4"
         "Manufacturer" = "8:ClockworkMod"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -407,7 +397,7 @@
                                                     {
                                                     "Name" = "8:com.clockworkmod.adb"
                                                     "Condition" = "8:"
-                                                    "AlwaysCreate" = "11:FALSE"
+                                                    "AlwaysCreate" = "11:TRUE"
                                                     "DeleteAtUninstall" = "11:FALSE"
                                                     "Transitive" = "11:FALSE"
                                                         "Keys"
@@ -491,7 +481,7 @@
                                                     {
                                                     "Name" = "8:com.clockworkmod.adb"
                                                     "Condition" = "8:"
-                                                    "AlwaysCreate" = "11:FALSE"
+                                                    "AlwaysCreate" = "11:TRUE"
                                                     "DeleteAtUninstall" = "11:FALSE"
                                                     "Transitive" = "11:FALSE"
                                                         "Keys"
