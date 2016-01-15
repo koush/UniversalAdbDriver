@@ -31,6 +31,10 @@ HKR,,Icon,,-1
 %SingleAdbInterface% = USB_Install, USB\VID_05C6&PID_6769
 %CompositeAdbInterface% = USB_Install, USB\VID_05C6&PID_6769&REV_0232
 
+;OnePlus Two
+%SingleAdbInterface% = USB_Install, USB\VID_2A70&PID_9011
+%CompositeAdbInterface% = USB_Install, USB\VID_2A70&PID_9011&REV_0310
+
 ;Nook
 %Nook%     = USB_Install, USB\VID_18D1&PID_0001
 %Nook%     = USB_Install, USB\VID_18D1&PID_0001&MI_00
@@ -886,6 +890,10 @@ HKR,,Icon,,-1
 ;OnePlus One
 %SingleAdbInterface% = USB_Install, USB\VID_05C6&PID_6769
 %CompositeAdbInterface% = USB_Install, USB\VID_05C6&PID_6769&REV_0232
+
+;OnePlus Two
+%SingleAdbInterface% = USB_Install, USB\VID_2A70&PID_9011
+%CompositeAdbInterface% = USB_Install, USB\VID_2A70&PID_9011&REV_0310
 
 ;Nook
 %Nook%     = USB_Install, USB\VID_18D1&PID_0001
