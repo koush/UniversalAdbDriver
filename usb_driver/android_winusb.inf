@@ -31,6 +31,11 @@ HKR,,Icon,,-1
 %SingleAdbInterface% = USB_Install, USB\VID_05C6&PID_6769
 %CompositeAdbInterface% = USB_Install, USB\VID_05C6&PID_6769&REV_0232
 
+; Vodafone Smart prime 6 (CTP and MTP)
+%VF895NADB% = USB_Install, USB\VID_1BBB&PID_AF29&MI_01
+%VF895NADB% = USB_Install, USB\VID_1BBB&PID_AF2B&MI_01
+
+
 ;Nook
 %Nook%     = USB_Install, USB\VID_18D1&PID_0001
 %Nook%     = USB_Install, USB\VID_18D1&PID_0001&MI_00
@@ -886,6 +891,10 @@ HKR,,Icon,,-1
 ;OnePlus One
 %SingleAdbInterface% = USB_Install, USB\VID_05C6&PID_6769
 %CompositeAdbInterface% = USB_Install, USB\VID_05C6&PID_6769&REV_0232
+
+; Vodafone Smart prime 6 (CTP and MTP)
+%VF895NADB% = USB_Install, USB\VID_1BBB&PID_AF29&MI_01
+%VF895NADB% = USB_Install, USB\VID_1BBB&PID_AF2B&MI_01
 
 ;Nook
 %Nook%     = USB_Install, USB\VID_18D1&PID_0001
@@ -1837,6 +1846,9 @@ WinUSB_SvcDesc						= "Android USB Driver"
 DISK_NAME								= "Android WinUsb installation disk"
 ClassName								= "Android Device"
 APXBootLoaderInterface					= "APX Android Bootloader Interface"
+
+; Vodafone Smart Prime 6
+VF895NADB								= "Vodafone Smart Prime 6 ADB Interface"
 
 ; Generic Samsung ADB Interface
 Samsung									= "Samsung Android Interface"
