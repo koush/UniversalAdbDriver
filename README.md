@@ -11,7 +11,7 @@ A single Windows driver that supports the ADB (and fastboot) interface for most 
 %Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0228&MI_01
 
 
-Adb 驱动本身就是能用的，不同的设备的区别在于 .inf 文件中的 VID 和PID 以及接口不同，如果你使用compatible ID 的话就可以把驱动变成通用驱动。
+Adb 驱动本身就是通用的，不同的设备的区别在于 .inf 文件中的 VID 和PID 以及接口不同，如果你使用compatible ID 的话就可以把驱动变成通用驱动。
 如下所示：
 
 %CompositeAdbInterface% = USB_Install, USB\Class_FF&SubClass_42&Prot_01  
