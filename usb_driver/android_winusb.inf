@@ -23,1722 +23,1739 @@ HKR,,,0,%ClassName%
 HKR,,Icon,,-1
 
 [Manufacturer]
-%ProviderName%		= ClockworkMod, NTx86, NTamd64
+%ProviderName%          = ClockworkMod, NTx86, NTamd64
 
 [ClockworkMod.NTx86]
 
-;OnePlus One
-%SingleAdbInterface% = USB_Install, USB\VID_05C6&PID_6769
-%CompositeAdbInterface% = USB_Install, USB\VID_05C6&PID_6769&REV_0232
+;Asus
+; Eee Pad Slider SL101 ADB Interface
+%AsusEeePadSliderADBInterface%          = USB_Install, USB\VID_0B05&PID_4E01
+%AsusEeePadSliderADBInterface%          = USB_Install, USB\VID_0B05&PID_4E01&MI_01
+%AsusEeePadSliderADBInterface%          = USB_Install, USB\VID_0B05&PID_4E03
+%AsusEeePadSliderADBInterface%          = USB_Install, USB\VID_0B05&PID_4E03&MI_02
 
-;Nook
-%Nook%     = USB_Install, USB\VID_18D1&PID_0001
-%Nook%     = USB_Install, USB\VID_18D1&PID_0001&MI_00
+; Transformer TF101 ADB Interface
+%AsusTransformerADBInterface%          = USB_Install, USB\VID_0B05&PID_4E1F
+%AsusTransformerADBInterface%          = USB_Install, USB\VID_0B05&PID_4E1F&MI_01
+%AsusTransformerADBInterface%          = USB_Install, USB\VID_0B05&PID_4E3F
+%AsusTransformerADBInterface%          = USB_Install, USB\VID_0B05&PID_4E3F&MI_02
+; Transformer Prime TF201 APX & ADB Interface
+%AsusTransformerPrimeADBInterface%          = USB_Install, USB\VID_0B05&PID_4D01
+%AsusTransformerPrimeADBInterface%          = USB_Install, USB\VID_0B05&PID_4D01&MI_01
+%AsusTransformerPrimeADBInterface%          = USB_Install, USB\VID_0B05&PID_4D03
+%AsusTransformerPrimeADBInterface%          = USB_Install, USB\VID_0B05&PID_4D03&MI_02
+%AsusFastbootInterface%          = USB_Install, USB\VID_0B05&PID_4DAF
+%AsusFastbootInterface%          = USB_Install, USB\VID_0B05&PID_4DAF&REV_0000
 
-;B & N Nook Color
-%Nook%        = USB_Install, USB\VID_2080&PID_0002
-%Nook%     = USB_Install, USB\VID_2080&PID_0002&MI_01
-
-;Google Nexus (generic)
-%GoogleNexusBootLoaderInterface% 					= USB_Install, USB\VID_18D1&PID_4EE0
-%GoogleNexusADBInterface%        					= USB_Install, USB\VID_18D1&PID_4EE1
-%GoogleNexusADBInterface%     						= USB_Install, USB\VID_18D1&PID_4EE2
-%GoogleNexusADBInterface%     						= USB_Install, USB\VID_18D1&PID_4EE2&MI_01
-%GoogleNexusADBInterface%        					= USB_Install, USB\VID_18D1&PID_4EE3
-%GoogleNexusADBInterface%     						= USB_Install, USB\VID_18D1&PID_4EE4&MI_01
-%GoogleNexusADBInterface%        					= USB_Install, USB\VID_18D1&PID_4EE5
-%GoogleNexusADBInterface%     						= USB_Install, USB\VID_18D1&PID_4EE6&MI_01
-%GoogleNexusADBInterface%        					= USB_Install, USB\VID_18D1&PID_4EE7
-
-;Google Nexus One
-%GoogleNexusOneADBInterface%        					= USB_Install, USB\VID_18D1&PID_0D02
-%GoogleNexusOneADBInterface%     					= USB_Install, USB\VID_18D1&PID_0D02&MI_01
-%GoogleNexusOneADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E11
-%GoogleNexusOneADBInterface%     					= USB_Install, USB\VID_18D1&PID_4E12&MI_01
-
-;Google Nexus S
-%GoogleNexusSBootLoaderInterface%        		  = USB_Install, USB\VID_18D1&PID_4E20&REV_0100
-%GoogleNexusSADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E21
-%GoogleNexusSADBInterface%     						= USB_Install, USB\VID_18D1&PID_4E22&MI_01
-%GoogleNexusSADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E23
-%GoogleNexusSADBInterface%     						= USB_Install, USB\VID_18D1&PID_4E24&MI_01
-
-;Google Nexus Q
-%GoogleNexusQADBInterface% 						= USB_Install, USB\VID_18D1&PID_2C10
-%GoogleNexusQADBInterface%        					= USB_Install, USB\VID_18D1&PID_2C11
-
-; Samsung Android Interface
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_685E&REV_0400&MI_03
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0228&MI_01
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6860&REV_0400&MI_03
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6860&REV_0228
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0226&MI_01
-
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_685D&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_685E&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6860&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6861&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6862&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6864&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6867&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6868&ADB
-%Samsung%     = USB_Install_17, USB\SAMSUNG_MOBILE&ADB
-
-
-; Samsung Galaxy Nexus Fastboot & ADB Inteface
-%SamsungGalaxyNexusBootLoaderInterface%					= USB_Install, USB\VID_18D1&PID_4E30
-%SamsungGalaxyNexusBootLoaderInterface%					= USB_Install, USB\VID_18D1&PID_4E30&MI_01
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_18D1&PID_D001
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_18D1&PID_D001&REV_0216
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_685C&REV_0216
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_685C
-
-;Google Nexus 7 Fastboot & ADB Inteface
-%GoogleNexus7BootLoaderInterface% 					= USB_Install, USB\VID_18D1&PID_4E40
-%GoogleNexus7ADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E41
-%GoogleNexus7ADBInterface%    						= USB_Install, USB\VID_18D1&PID_4E42
-%GoogleNexus7ADBInterface%   						= USB_Install, USB\VID_18D1&PID_4E42&MI_01
-%GoogleNexus7ADBInterface% 						= USB_Install, USB\VID_18D1&PID_4E44&MI_01
-
-; Asus Eee Pad Slider SL101 ADB Interface
-%AsusEeePadSliderADBInterface%			= USB_Install, USB\VID_0B05&PID_4E01
-%AsusEeePadSliderADBInterface%			= USB_Install, USB\VID_0B05&PID_4E01&MI_01
-%AsusEeePadSliderADBInterface%			= USB_Install, USB\VID_0B05&PID_4E03
-%AsusEeePadSliderADBInterface%			= USB_Install, USB\VID_0B05&PID_4E03&MI_02
-
-; Asus Transformer TF101 ADB Interface
-%AsusTransformerADBInterface%			= USB_Install, USB\VID_0B05&PID_4E1F
-%AsusTransformerADBInterface%			= USB_Install, USB\VID_0B05&PID_4E1F&MI_01
-%AsusTransformerADBInterface%			= USB_Install, USB\VID_0B05&PID_4E3F
-%AsusTransformerADBInterface%			= USB_Install, USB\VID_0B05&PID_4E3F&MI_02
-
-; Asus Transformer Prime TF201 APX & ADB Interface
-%AsusTransformerPrimeADBInterface%		= USB_Install, USB\VID_0B05&PID_4D01
-%AsusTransformerPrimeADBInterface%		= USB_Install, USB\VID_0B05&PID_4D01&MI_01
-%AsusTransformerPrimeADBInterface%		= USB_Install, USB\VID_0B05&PID_4D03
-%AsusTransformerPrimeADBInterface%		= USB_Install, USB\VID_0B05&PID_4D03&MI_02
-%AsusFastbootInterface%				= USB_Install, USB\VID_0B05&PID_4DAF
-%AsusFastbootInterface%				= USB_Install, USB\VID_0B05&PID_4DAF&REV_0000
+;B & N 
+; Nook
+%Nook%          = USB_Install, USB\VID_18D1&PID_0001
+%Nook%          = USB_Install, USB\VID_18D1&PID_0001&MI_00
+; Nook Color
+%Nook%          = USB_Install, USB\VID_2080&PID_0002
+%Nook%          = USB_Install, USB\VID_2080&PID_0002&MI_01
 
 ;Dell
-%DellCC% = USB_Install, USB\VID_413C&PID_1A01&REV_0231&MI_01
-%DellCC% = USB_Install, USB\VID_413C&PID_1A01&MI_01
+; Cloud Connect
+%DellCC%          = USB_Install, USB\VID_413C&PID_1A01&REV_0231&MI_01
+%DellCC%          = USB_Install, USB\VID_413C&PID_1A01&MI_01
 
-; HTC Android Interface
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C01&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C02&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C03&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C04&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C06&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C07&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C81
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C83&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C84&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C85&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C86&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C87&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C88&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C8A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C8B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C8C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C8D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C8E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C8F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C90&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C91&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C92&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C95&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C97&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C98&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C99&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C9A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C9B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C9C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C9D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C9E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C9F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CAA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CAB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CAC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CAD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CAE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CAF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CBA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CBB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CBC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CBD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CBE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CBF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CCA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CCC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CCD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CCE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CCF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CDA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CDB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CDC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CDD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CDE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CDF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CEA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CEB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CEC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CED&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CEE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CEF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CFA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CFB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CFC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CFD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CFE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CFF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D00&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D01&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D02&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D03&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D04&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D05&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D06&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D07&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D08&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D09&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D0A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D0B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D0C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D0D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D0E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D0F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D10&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D11&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D12&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D13&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D14&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D15&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D16&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D17&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D18&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D19&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D1A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D1B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D1C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D1D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D1E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D1F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D20&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D21&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D22&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D23&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D24&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D25&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D26&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D27&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D28&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D29&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D2A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D2B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D2C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D2D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D2E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D2F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D30&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D31&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D32&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D33&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D34&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D35&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D36&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D37&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D38&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D39&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D3A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D3B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D3C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D3D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D3E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D3F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D40&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D41&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D42&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D43&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D44&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D45&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D46&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D47&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D48&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D49&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D4A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D4B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D4C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D4D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D4E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D4F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D50&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D51&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D52&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D53&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D54&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D55&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D56&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D57&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D58&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D59&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D5A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D5B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D5C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D5D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D5E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D5F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D60&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D61&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D62&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D63&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D64&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D65&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D66&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D67&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D68&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D69&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D6A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D6B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D6C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D6D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D6E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D6F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D70&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D71&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D72&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D73&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D74&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D75&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D76&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D77&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D78&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D79&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D7A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D7B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D7C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D7D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D7E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D7F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D80&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D81&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D82&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D83&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D84&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D85&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D86&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D87&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D88&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D89&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D8A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D8B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D8C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D8D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D8E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D8F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D90&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D91&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D92&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D93&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D94&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D95&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D96&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D97&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D98&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D99&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D9A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D9B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D9C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D9D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D9E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D9F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DAA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DAB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DAC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DAD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DAE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DAF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DBA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DBB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DBC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DBD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DBE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DBF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DCA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DCB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DCC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DCD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DCE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DCF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DDA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DDB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DDC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DDD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DDE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DDF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DEA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DEB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DEC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DED&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DEE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DEF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DFA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DFB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DFC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DFD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DFE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DFF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FC6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FC9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FCB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FCF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FD1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FD2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FD4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FD6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FD8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FDA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FDC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FDE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FE0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FE1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FE3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FE4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FE5&MI_02
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FE8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FF0
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FF1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FF2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FF6&MI_02
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FFC&MI_02
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FFF
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E03&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C96&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E06&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E07&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E0B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E0F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E11&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E12&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E16&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E1A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E1C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E1D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E21&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E25&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E27&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E28&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E2C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E30&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E32&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E33&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E37&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E3B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E3D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E3E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E42&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E46&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E48&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E49&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E4D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E51&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E53&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E54&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E58&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E5C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E5E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E5F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E63&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E67&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E69&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E6A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E6E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E72&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E76&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0F87&MI_01
+;Google
+; Glass
+%GoogleGlassBootLoaderInterface%          = USB_Install, USB\VID_0451&PID_D022&REV_0100
+%GoogleGlassADBInterface%          = USB_Install, USB\VID_18D1&PID_9001&REV_0216&MI_01
 
+; Nexus 7 Fastboot & ADB Inteface
+%GoogleNexus7BootLoaderInterface%          = USB_Install, USB\VID_18D1&PID_4E40
+%GoogleNexus7ADBInterface%          = USB_Install, USB\VID_18D1&PID_4E41
+%GoogleNexus7ADBInterface%          = USB_Install, USB\VID_18D1&PID_4E42
+%GoogleNexus7ADBInterface%          = USB_Install, USB\VID_18D1&PID_4E42&MI_01
+%GoogleNexus7ADBInterface%          = USB_Install, USB\VID_18D1&PID_4E44&MI_01
+; Nexus (generic)
+%GoogleNexusBootLoaderInterface%          = USB_Install, USB\VID_18D1&PID_4EE0
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE1
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE2
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE2&MI_01
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE3
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE4&MI_01
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE5
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE6&MI_01
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE7
+; Nexus One
+%GoogleNexusOneADBInterface%          = USB_Install, USB\VID_18D1&PID_0D02
+%GoogleNexusOneADBInterface%          = USB_Install, USB\VID_18D1&PID_0D02&MI_01
+%GoogleNexusOneADBInterface%          = USB_Install, USB\VID_18D1&PID_4E11
+%GoogleNexusOneADBInterface%          = USB_Install, USB\VID_18D1&PID_4E12&MI_01
+; Nexus S
+%GoogleNexusSBootLoaderInterface%          = USB_Install, USB\VID_18D1&PID_4E20&REV_0100
+%GoogleNexusSADBInterface%          = USB_Install, USB\VID_18D1&PID_4E21
+%GoogleNexusSADBInterface%          = USB_Install, USB\VID_18D1&PID_4E22&MI_01
+%GoogleNexusSADBInterface%          = USB_Install, USB\VID_18D1&PID_4E23
+%GoogleNexusSADBInterface%          = USB_Install, USB\VID_18D1&PID_4E24&MI_01
+; Nexus Q
+%GoogleNexusQADBInterface%          = USB_Install, USB\VID_18D1&PID_2C10
+%GoogleNexusQADBInterface%          = USB_Install, USB\VID_18D1&PID_2C11
 
-;Motorola
-; Moto G
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E84&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E80
+;HTC
+; Various Models
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C01&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C02&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C03&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C04&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C06&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C07&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C81
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C83&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C84&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C85&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C86&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C87&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C88&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C8A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C8B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C8C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C8D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C8E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C8F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C90&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C91&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C92&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C95&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C97&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C98&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C99&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C9A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C9B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C9C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C9D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C9E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C9F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CAA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CAB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CAC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CAD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CAE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CAF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CBA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CBB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CBC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CBD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CBE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CBF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CCA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CCC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CCD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CCE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CCF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CDA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CDB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CDC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CDD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CDE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CDF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CEA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CEB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CEC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CED&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CEE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CEF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CFA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CFB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CFC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CFD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CFE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CFF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D00&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D01&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D02&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D03&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D04&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D05&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D06&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D07&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D08&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D09&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D0A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D0B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D0C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D0D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D0E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D0F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D10&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D11&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D12&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D13&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D14&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D15&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D16&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D17&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D18&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D19&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D1A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D1B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D1C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D1D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D1E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D1F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D20&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D21&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D22&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D23&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D24&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D25&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D26&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D27&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D28&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D29&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D2A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D2B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D2C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D2D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D2E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D2F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D30&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D31&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D32&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D33&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D34&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D35&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D36&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D37&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D38&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D39&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D3A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D3B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D3C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D3D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D3E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D3F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D40&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D41&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D42&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D43&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D44&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D45&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D46&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D47&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D48&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D49&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D4A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D4B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D4C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D4D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D4E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D4F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D50&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D51&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D52&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D53&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D54&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D55&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D56&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D57&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D58&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D59&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D5A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D5B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D5C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D5D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D5E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D5F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D60&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D61&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D62&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D63&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D64&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D65&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D66&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D67&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D68&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D69&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D6A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D6B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D6C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D6D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D6E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D6F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D70&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D71&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D72&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D73&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D74&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D75&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D76&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D77&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D78&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D79&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D7A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D7B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D7C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D7D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D7E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D7F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D80&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D81&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D82&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D83&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D84&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D85&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D86&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D87&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D88&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D89&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D8A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D8B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D8C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D8D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D8E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D8F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D90&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D91&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D92&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D93&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D94&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D95&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D96&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D97&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D98&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D99&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D9A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D9B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D9C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D9D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D9E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D9F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DAA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DAB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DAC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DAD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DAE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DAF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DBA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DBB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DBC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DBD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DBE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DBF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DCA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DCB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DCC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DCD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DCE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DCF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DDA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DDB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DDC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DDD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DDE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DDF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DEA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DEB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DEC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DED&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DEE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DEF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DFA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DFB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DFC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DFD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DFE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DFF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FC6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FC9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FCB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FCF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FD1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FD2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FD4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FD6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FD8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FDA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FDC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FDE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FE0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FE1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FE3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FE4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FE5&MI_02
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FE8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FF0
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FF1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FF2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FF6&MI_02
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FFC&MI_02
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FFF
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E03&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C96&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E06&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E07&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E0B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E0F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E11&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E12&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E16&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E1A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E1C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E1D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E21&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E25&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E27&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E28&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E2C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E30&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E32&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E33&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E37&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E3B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E3D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E3E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E42&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E46&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E48&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E49&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E4D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E51&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E53&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E54&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E58&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E5C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E5E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E5F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E63&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E67&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E69&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E6A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E6E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E72&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E76&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0F87&MI_01
 
-; Moto X
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E65&MI_01
-
-; h
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B6&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B8&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B9
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64BB&MI_00
-
-; test
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41EE&MI_03
-
-; q sm
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E51&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E53&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E55&MI_01
-
-; q dva
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E27&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E35&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E38&MI_03
-
-; i
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_7100
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7102&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7104&MI_03
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7106&MI_03
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7108&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_710A&MI_03
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_710C&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_710E&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7111&MI_01
-
-; x im
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64CA&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64D0&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64D2&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64D4&MI_03
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64D6&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64D8&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64DA&MI_03
-; x am
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B2&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B3&MI_01
-
-; ics qc d
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E22&MI_01
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_2E23
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E25&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E29&MI_05
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E2B&MI_07
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E2D&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E31&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E33&MI_02
-; ics y
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41DD&MI_02
-
-; ics o4
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4356&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_435E&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4362&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4364&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4366&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4368&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4354&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_435C&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_433D&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_433F&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4306&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4308&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4358&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4360&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_436A&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_436C&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_436E&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4370&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4372&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4374&MI_01
-
-; t qc
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E16&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E18&MI_00
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E1A&MI_02
-
-; g2
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41C7&MI_02
-
-; p qc
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_2DF1
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DF3&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DF5&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DF7&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DF9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DFB&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DFD&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DFF&MI_05
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E02&MI_02
-; o4
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4311&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_433B&MI_02
-
-; o4-1
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4313&MI_03
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4314&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4315&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4317&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4319&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_431B&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_431D&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_431F&MI_06
-; o4-2
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4330&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4331&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4333&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4335&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4337&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4339&MI_02
-; dq+
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DE6&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DE8&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DE9&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DEA&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DEB&MI_02
-
-; h nV
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70AB&MI_04
-; et
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7094&MI_09
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7096&MI_0B
-; ev
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70B1&MI_07
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70B3&MI_09
-; t o4
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_42F1
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42F3&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42F5&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42F7&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42F9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42FB&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42FD&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4302&MI_09
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4304&MI_0B
-; s o4
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_42D1
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42D3&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42D5&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42D7&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42D9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42DB&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42DD&MI_02
-; d nV
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_70C1
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70C3&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70C5&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70C7&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70C9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70CB&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70CD&MI_02
-
-; e
-%MotSingleInterface%    = USB_Install, USB\VID_18D1&PID_708C
-%MotSingleInterface%    = USB_Install, USB\VID_18D1&PID_70AC
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70A2&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70A9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70AF&MI_02
-
-; o3
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42C1&MI_01
-; o,e
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7090&MI_01
-; g
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41C3&MI_01
-; ft
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41E5&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7092&MI_02
-
-; g,o3 
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41E7&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41E9&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41EA&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41EC&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41ED&MI_03
-; c
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DD3&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DD4&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DD5&MI_02
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_2DD9
-; o/e,e
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7080&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7082&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7087&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7089&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_708B&MI_04
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_708C
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_70AC
-; s
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4284&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4286&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4289&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_428B&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_428C&MI_01
-; d2
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42A2&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42A4&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42A7&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42A9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42AA&MI_01
-; dp
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42B2&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42B4&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42B7&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42B9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42BA&MI_01
-; v2
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42C2&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42C4&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42C7&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42C9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42CA&MI_01
-;Calgary
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D7B&MI_03
-
-;Calgary
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D74&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D75&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D76&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D7B&MI_03
-
-;Morrison
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_2D62
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D61&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D64&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D66&MI_00
-;sholes umts
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_41D1
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41D2
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41DA&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41DB&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41DC&MI_01
-;Sholes CDMA
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41DB&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41E2&MI_04
-;Morrison/Motus/Zepplin
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D68&MI_01
-
-;SONY Sony Tablet P 
-%CompositeAdbInterface%     = USB_Install, USB\VID_054C&PID_04D2&MI_01 
-;SONY Sony Tablet S 
-%CompositeAdbInterface%     = USB_Install, USB\VID_054C&PID_05B4&MI_01
-
-%Huawei%								= USB_Install, USB\VID_22DA&PID_0C03&REV_0255&MI_01
-%Huawei%								= USB_Install, USB\VID_22DA&PID_0C03&MI_01
-%Huawei%								= USB_Install, USB\VID_12D1&PID_1038&REV_0231&MI_01
-%Huawei%								= USB_Install, USB\VID_12D1&PID_1038&MI_01
-%Huawei%								= USB_Install, USB\VID_12D1&PID_1054&REV_0231&MI_01
-%Huawei%								= USB_Install, USB\VID_12D1&PID_1054&MI_01
-
-;LG P99x
-%LG%                   = USB_Install, USB\VID_1004&PID_618E
-%LG%                   = USB_Install, USB\VID_1004&PID_618E&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_61A6
-%LG%                   = USB_Install, USB\VID_1004&PID_61A6&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_61D9
-%LG%                   = USB_Install, USB\VID_1004&PID_61D9&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_61F9
-%LG%                   = USB_Install, USB\VID_1004&PID_61F9&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_61FA
-%LG%                   = USB_Install, USB\VID_1004&PID_61FA&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_631C
-%LG%                   = USB_Install, USB\VID_1004&PID_631C&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_6866
-%LG%                   = USB_Install, USB\VID_1004&PID_6866&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_D001
-%LG%                   = USB_Install, USB\VID_1004&PID_D001&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_D10A
-%LG%                   = USB_Install, USB\VID_1004&PID_D10A&MI_01
-
-;Spreadtrum
-%Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&REV_0229&MI_01
-%Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&MI_01
-
-;ViewSonic
-%ViewSonic%				= USB_Install, USB\VID_0408&PID_3998&REV_0216&MI_01
-%ViewSonic%				= USB_Install, USB\VID_0408&PID_3998&MI_01
-
-; Xiaomi
-%Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&REV_0228&MI_01
-%Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&MI_01
+;Huawei
+; Various Models
+%Huawei%          = USB_Install, USB\VID_22DA&PID_0C03&REV_0255&MI_01
+%Huawei%          = USB_Install, USB\VID_22DA&PID_0C03&MI_01
+%Huawei%          = USB_Install, USB\VID_12D1&PID_1038&REV_0231&MI_01
+%Huawei%          = USB_Install, USB\VID_12D1&PID_1038&MI_01
+%Huawei%          = USB_Install, USB\VID_12D1&PID_1054&REV_0231&MI_01
+%Huawei%          = USB_Install, USB\VID_12D1&PID_1054&MI_01
 
 ;Lenovo
-%Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&REV_0255&MI_01
-%Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&MI_01
+; Various Models
+%Lenovo%          = USB_Install, USB\VID_17EF&PID_7435&REV_0255&MI_01
+%Lenovo%          = USB_Install, USB\VID_17EF&PID_7435&MI_01
 
-;ZTE Valet
-%ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&REV_0233&MI_01
-%ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&MI_01
+;LG
+; P99x
+%LG%          = USB_Install, USB\VID_1004&PID_618E
+%LG%          = USB_Install, USB\VID_1004&PID_618E&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_61A6
+%LG%          = USB_Install, USB\VID_1004&PID_61A6&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_61D9
+%LG%          = USB_Install, USB\VID_1004&PID_61D9&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_61F9
+%LG%          = USB_Install, USB\VID_1004&PID_61F9&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_61FA
+%LG%          = USB_Install, USB\VID_1004&PID_61FA&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_631C
+%LG%          = USB_Install, USB\VID_1004&PID_631C&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_6866
+%LG%          = USB_Install, USB\VID_1004&PID_6866&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_D001
+%LG%          = USB_Install, USB\VID_1004&PID_D001&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_D10A
+%LG%          = USB_Install, USB\VID_1004&PID_D10A&MI_01
+
+;Motorola
+; Calgary
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D74&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D75&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D76&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D7B&MI_03
+; c
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DD3&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DD4&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DD5&MI_02
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_2DD9
+
+; d2
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42A2&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42A4&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42A7&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42A9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42AA&MI_01
+; d nV
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_70C1
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70C3&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70C5&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70C7&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70C9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70CB&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70CD&MI_02
+; dp
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42B2&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42B4&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42B7&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42B9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42BA&MI_01
+; dq+
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DE6&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DE8&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DE9&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DEA&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DEB&MI_02
+
+; e
+%MotSingleInterface%          = USB_Install, USB\VID_18D1&PID_708C
+%MotSingleInterface%          = USB_Install, USB\VID_18D1&PID_70AC
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70A2&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70A9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70AF&MI_02
+; et
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7094&MI_09
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7096&MI_0B
+; ev
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70B1&MI_07
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70B3&MI_09
+
+; ft
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41E5&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7092&MI_02
+
+; g
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41C3&MI_01
+; g,o3 
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41E7&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41E9&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41EA&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41EC&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41ED&MI_03
+; g2
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41C7&MI_02
+
+; h
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64B6&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64B8&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64B9
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64BB&MI_00
+; h nV
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70AB&MI_04
+
+; i
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_7100
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7102&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7104&MI_03
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7106&MI_03
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7108&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_710A&MI_03
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_710C&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_710E&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7111&MI_01
+; ics o4
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4356&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_435E&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4362&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4364&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4366&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4368&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4354&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_435C&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_433D&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_433F&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4306&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4308&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4358&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4360&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_436A&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_436C&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_436E&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4370&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4372&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4374&MI_01
+; ics qc d
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E22&MI_01
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_2E23
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E25&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E29&MI_05
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E2B&MI_07
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E2D&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E31&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E33&MI_02
+; ics y
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41DD&MI_02
+
+
+; Moto G
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E84&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E80
+; Moto X
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E65&MI_01
+; Morrison
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_2D62
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D61&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D64&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D66&MI_00
+; Morrison/Motus/Zepplin
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D68&MI_01
+
+; o,e
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7090&MI_01
+; o/e,e
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7080&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7082&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7087&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7089&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_708B&MI_04
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_708C
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_70AC
+; o3
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42C1&MI_01
+; o4
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4311&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_433B&MI_02
+; o4-1
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4313&MI_03
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4314&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4315&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4317&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4319&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_431B&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_431D&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_431F&MI_06
+; o4-2
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4330&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4331&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4333&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4335&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4337&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4339&MI_02
+
+; q dva
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E27&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E35&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E38&MI_03
+; q sm
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E51&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E53&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E55&MI_01
+
+; s o4
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_42D1
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42D3&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42D5&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42D7&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42D9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42DB&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42DD&MI_02
+; s
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4284&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4286&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4289&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_428B&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_428C&MI_01
+; Sholes
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41E2&MI_04
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_41D1
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41D2
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41DA&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41DB&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41DC&MI_01
+
+; t qc
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E16&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E18&MI_00
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E1A&MI_02
+; test
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41EE&MI_03
+
+; p qc
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_2DF1
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DF3&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DF5&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DF7&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DF9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DFB&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DFD&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DFF&MI_05
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E02&MI_02
+; t o4
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_42F1
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42F3&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42F5&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42F7&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42F9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42FB&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42FD&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4302&MI_09
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4304&MI_0B
+
+; v2
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42C2&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42C4&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42C7&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42C9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42CA&MI_01
+
+; x im
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64CA&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64D0&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64D2&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64D4&MI_03
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64D6&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64D8&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64DA&MI_03
+; x am
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64B2&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64B3&MI_01
+
+;OnePlus
+; One
+%SingleAdbInterface%          = USB_Install, USB\VID_05C6&PID_6769
+%CompositeAdbInterface%          = USB_Install, USB\VID_05C6&PID_6769&REV_0232
+
+;Samsung
+; Various Models
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_685E&REV_0400&MI_03
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6866&REV_0228&MI_01
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6860&REV_0400&MI_03
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6860&REV_0228
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6866&REV_0226&MI_01
+
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_685D&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_685E&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6860&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6861&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6862&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6864&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6866&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6867&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6868&ADB
+%Samsung%          = USB_Install_17, USB\SAMSUNG_MOBILE&ADB
+
+; Galaxy Nexus Fastboot & ADB Inteface
+%SamsungGalaxyNexusBootLoaderInterface%          = USB_Install, USB\VID_18D1&PID_4E30
+%SamsungGalaxyNexusBootLoaderInterface%          = USB_Install, USB\VID_18D1&PID_4E30&MI_01
+%SamsungGalaxyNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_D001
+%SamsungGalaxyNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_D001&REV_0216
+%SamsungGalaxyNexusADBInterface%          = USB_Install, USB\VID_04E8&PID_685C&REV_0216
+%SamsungGalaxyNexusADBInterface%          = USB_Install, USB\VID_04E8&PID_685C
+
+;SONY
+; Tablet P 
+%SONY%          = USB_Install, USB\VID_054C&PID_04D2&MI_01 
+; Tablet S 
+%SONY%          = USB_Install, USB\VID_054C&PID_05B4&MI_01
+
+; Xperia ZXs (G8232)
+%SONY%          = USB_Install, USB\VID_0FCE&PID_51ED&MI_01
+%SONY%          = USB_Install, USB\VID_0FCE&PID_51ED&REV_0318&MI_01
+
+;Spreadtrum
+%Spreadtrum%          = USB_Install, USB\VID_1782&PID_5D04&REV_0229&MI_01
+%Spreadtrum%          = USB_Install, USB\VID_1782&PID_5D04&MI_01
+
+;TCL
+; Alcatel Idol 4 (6055x)
+%TCL%          = USB_Install, USB\VID_1BBB&PID_AF3E&MI_02
+%TCL%          = USB_Install, USB\VID_1BBB&PID_AF3E&REV_0225&MI_02
+
+;ViewSonic
+%ViewSonic%          = USB_Install, USB\VID_0408&PID_3998&REV_0216&MI_01
+%ViewSonic%          = USB_Install, USB\VID_0408&PID_3998&MI_01
+
+;Xiaomi
+%Xiaomi%          = USB_Install, USB\VID_2717&PID_9039&REV_0228&MI_01
+%Xiaomi%          = USB_Install, USB\VID_2717&PID_9039&MI_01
+
+;ZTE
+; Valet
+%ZteValet%          = USB_Install, USB\VID_19D2&PID_0310&REV_0233&MI_01
+%ZteValet%          = USB_Install, USB\VID_19D2&PID_0310&MI_01
 
 [ClockworkMod.NTamd64]
 
-;OnePlus One
-%SingleAdbInterface% = USB_Install, USB\VID_05C6&PID_6769
-%CompositeAdbInterface% = USB_Install, USB\VID_05C6&PID_6769&REV_0232
+;Asus
+; Eee Pad Slider SL101 ADB Interface
+%AsusEeePadSliderADBInterface%          = USB_Install, USB\VID_0B05&PID_4E01
+%AsusEeePadSliderADBInterface%          = USB_Install, USB\VID_0B05&PID_4E01&MI_01
+%AsusEeePadSliderADBInterface%          = USB_Install, USB\VID_0B05&PID_4E03
+%AsusEeePadSliderADBInterface%          = USB_Install, USB\VID_0B05&PID_4E03&MI_02
 
-;Nook
-%Nook%     = USB_Install, USB\VID_18D1&PID_0001
-%Nook%     = USB_Install, USB\VID_18D1&PID_0001&MI_00
+; Transformer TF101 ADB Interface
+%AsusTransformerADBInterface%          = USB_Install, USB\VID_0B05&PID_4E1F
+%AsusTransformerADBInterface%          = USB_Install, USB\VID_0B05&PID_4E1F&MI_01
+%AsusTransformerADBInterface%          = USB_Install, USB\VID_0B05&PID_4E3F
+%AsusTransformerADBInterface%          = USB_Install, USB\VID_0B05&PID_4E3F&MI_02
+; Transformer Prime TF201 APX & ADB Interface
+%AsusTransformerPrimeADBInterface%          = USB_Install, USB\VID_0B05&PID_4D01
+%AsusTransformerPrimeADBInterface%          = USB_Install, USB\VID_0B05&PID_4D01&MI_01
+%AsusTransformerPrimeADBInterface%          = USB_Install, USB\VID_0B05&PID_4D03
+%AsusTransformerPrimeADBInterface%          = USB_Install, USB\VID_0B05&PID_4D03&MI_02
+%AsusFastbootInterface%          = USB_Install, USB\VID_0B05&PID_4DAF
+%AsusFastbootInterface%          = USB_Install, USB\VID_0B05&PID_4DAF&REV_0000
 
-;B & N Nook Color
-%Nook%        = USB_Install, USB\VID_2080&PID_0002
-%Nook%     = USB_Install, USB\VID_2080&PID_0002&MI_01
-
-;Google Nexus (generic)
-%GoogleNexusBootLoaderInterface% 					= USB_Install, USB\VID_18D1&PID_4EE0
-%GoogleNexusADBInterface%        					= USB_Install, USB\VID_18D1&PID_4EE1
-%GoogleNexusADBInterface%     						= USB_Install, USB\VID_18D1&PID_4EE2
-%GoogleNexusADBInterface%     						= USB_Install, USB\VID_18D1&PID_4EE2&MI_01
-%GoogleNexusADBInterface%        					= USB_Install, USB\VID_18D1&PID_4EE3
-%GoogleNexusADBInterface%     						= USB_Install, USB\VID_18D1&PID_4EE4&MI_01
-%GoogleNexusADBInterface%        					= USB_Install, USB\VID_18D1&PID_4EE5
-%GoogleNexusADBInterface%     						= USB_Install, USB\VID_18D1&PID_4EE6&MI_01
-%GoogleNexusADBInterface%        					= USB_Install, USB\VID_18D1&PID_4EE7
-
-;Google Nexus One
-%GoogleNexusOneADBInterface%        					= USB_Install, USB\VID_18D1&PID_0D02
-%GoogleNexusOneADBInterface%     					= USB_Install, USB\VID_18D1&PID_0D02&MI_01
-%GoogleNexusOneADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E11
-%GoogleNexusOneADBInterface%     					= USB_Install, USB\VID_18D1&PID_4E12&MI_01
-
-;Google Nexus S
-%GoogleNexusSBootLoaderInterface%        		  = USB_Install, USB\VID_18D1&PID_4E20&REV_0100
-%GoogleNexusSADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E21
-%GoogleNexusSADBInterface%     						= USB_Install, USB\VID_18D1&PID_4E22&MI_01
-%GoogleNexusSADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E23
-%GoogleNexusSADBInterface%     						= USB_Install, USB\VID_18D1&PID_4E24&MI_01
-
-;Google Nexus Q
-%GoogleNexusQADBInterface% 						= USB_Install, USB\VID_18D1&PID_2C10
-%GoogleNexusQADBInterface%        					= USB_Install, USB\VID_18D1&PID_2C11
-
-; Samsung Android Interface
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_685E&REV_0400&MI_03
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0228&MI_01
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6860&REV_0400&MI_03
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6860&REV_0228
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&REV_0226&MI_01
-
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_685D&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_685E&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6860&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6861&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6862&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6864&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6866&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6867&ADB
-%Samsung%     = USB_Install_17, USB\VID_04E8&PID_6868&ADB
-%Samsung%     = USB_Install_17, USB\SAMSUNG_MOBILE&ADB
-
-; Samsung Galaxy Nexus Fastboot & ADB Inteface
-%SamsungGalaxyNexusBootLoaderInterface%					= USB_Install, USB\VID_18D1&PID_4E30
-%SamsungGalaxyNexusBootLoaderInterface%					= USB_Install, USB\VID_18D1&PID_4E30&MI_01
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_18D1&PID_D001
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_18D1&PID_D001&REV_0216
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_685C&REV_0216
-%SamsungGalaxyNexusADBInterface%		= USB_Install, USB\VID_04E8&PID_685C
-
-;Google Nexus 7 Fastboot & ADB Inteface
-%GoogleNexus7BootLoaderInterface% 					= USB_Install, USB\VID_18D1&PID_4E40
-%GoogleNexus7ADBInterface%        					= USB_Install, USB\VID_18D1&PID_4E41
-%GoogleNexus7ADBInterface%    						= USB_Install, USB\VID_18D1&PID_4E42
-%GoogleNexus7ADBInterface%   						= USB_Install, USB\VID_18D1&PID_4E42&MI_01
-%GoogleNexus7ADBInterface% 						= USB_Install, USB\VID_18D1&PID_4E44&MI_01
-
-; Asus Eee Pad Slider SL101 ADB Interface
-%AsusEeePadSliderADBInterface%			= USB_Install, USB\VID_0B05&PID_4E01
-%AsusEeePadSliderADBInterface%			= USB_Install, USB\VID_0B05&PID_4E01&MI_01
-%AsusEeePadSliderADBInterface%			= USB_Install, USB\VID_0B05&PID_4E03
-%AsusEeePadSliderADBInterface%			= USB_Install, USB\VID_0B05&PID_4E03&MI_02
-
-; Asus Transformer TF101 ADB Interface
-%AsusTransformerADBInterface%			= USB_Install, USB\VID_0B05&PID_4E1F
-%AsusTransformerADBInterface%			= USB_Install, USB\VID_0B05&PID_4E1F&MI_01
-%AsusTransformerADBInterface%			= USB_Install, USB\VID_0B05&PID_4E3F
-%AsusTransformerADBInterface%			= USB_Install, USB\VID_0B05&PID_4E3F&MI_02
-
-; Asus Transformer Prime TF201 APX & ADB Interface
-%AsusTransformerPrimeADBInterface%		= USB_Install, USB\VID_0B05&PID_4D01
-%AsusTransformerPrimeADBInterface%		= USB_Install, USB\VID_0B05&PID_4D01&MI_01
-%AsusTransformerPrimeADBInterface%		= USB_Install, USB\VID_0B05&PID_4D03
-%AsusTransformerPrimeADBInterface%		= USB_Install, USB\VID_0B05&PID_4D03&MI_02
-%AsusFastbootInterface%				= USB_Install, USB\VID_0B05&PID_4DAF
-%AsusFastbootInterface%				= USB_Install, USB\VID_0B05&PID_4DAF&REV_0000
+;B & N 
+; Nook
+%Nook%          = USB_Install, USB\VID_18D1&PID_0001
+%Nook%          = USB_Install, USB\VID_18D1&PID_0001&MI_00
+; Nook Color
+%Nook%          = USB_Install, USB\VID_2080&PID_0002
+%Nook%          = USB_Install, USB\VID_2080&PID_0002&MI_01
 
 ;Dell
-%DellCC% = USB_Install, USB\VID_413C&PID_1A01&REV_0231&MI_01
-%DellCC% = USB_Install, USB\VID_413C&PID_1A01&MI_01
+; Cloud Connect
+%DellCC%          = USB_Install, USB\VID_413C&PID_1A01&REV_0231&MI_01
+%DellCC%          = USB_Install, USB\VID_413C&PID_1A01&MI_01
 
-; HTC Android Interface
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C01&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C02&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C03&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C04&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C06&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C07&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C81
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C83&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C84&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C85&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C86&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C87&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C88&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C8A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C8B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C8C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C8D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C8E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C8F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C90&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C91&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C92&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C95&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C97&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C98&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C99&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C9A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C9B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C9C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C9D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C9E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C9F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CA9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CAA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CAB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CAC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CAD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CAE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CAF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CB9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CBA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CBB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CBC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CBD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CBE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CBF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CC9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CCA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CCC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CCD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CCE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CCF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CD9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CDA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CDB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CDC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CDD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CDE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CDF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CE9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CEA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CEB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CEC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CED&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CEE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CEF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CF9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CFA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CFB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CFC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CFD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CFE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0CFF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D00&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D01&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D02&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D03&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D04&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D05&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D06&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D07&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D08&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D09&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D0A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D0B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D0C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D0D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D0E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D0F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D10&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D11&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D12&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D13&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D14&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D15&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D16&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D17&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D18&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D19&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D1A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D1B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D1C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D1D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D1E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D1F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D20&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D21&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D22&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D23&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D24&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D25&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D26&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D27&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D28&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D29&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D2A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D2B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D2C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D2D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D2E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D2F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D30&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D31&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D32&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D33&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D34&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D35&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D36&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D37&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D38&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D39&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D3A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D3B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D3C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D3D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D3E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D3F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D40&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D41&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D42&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D43&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D44&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D45&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D46&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D47&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D48&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D49&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D4A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D4B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D4C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D4D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D4E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D4F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D50&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D51&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D52&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D53&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D54&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D55&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D56&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D57&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D58&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D59&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D5A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D5B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D5C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D5D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D5E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D5F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D60&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D61&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D62&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D63&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D64&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D65&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D66&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D67&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D68&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D69&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D6A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D6B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D6C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D6D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D6E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D6F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D70&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D71&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D72&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D73&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D74&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D75&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D76&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D77&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D78&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D79&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D7A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D7B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D7C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D7D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D7E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D7F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D80&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D81&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D82&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D83&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D84&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D85&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D86&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D87&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D88&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D89&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D8A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D8B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D8C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D8D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D8E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D8F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D90&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D91&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D92&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D93&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D94&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D95&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D96&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D97&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D98&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D99&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D9A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D9B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D9C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D9D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D9E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0D9F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DA9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DAA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DAB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DAC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DAD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DAE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DAF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DB9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DBA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DBB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DBC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DBD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DBE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DBF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DC9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DCA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DCB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DCC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DCD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DCE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DCF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DD9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DDA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DDB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DDC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DDD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DDE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DDF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DE9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DEA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DEB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DEC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DED&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DEE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DEF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF5&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF7&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DF9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DFA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DFB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DFC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DFD&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DFE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0DFF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FC6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FC9&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FCB&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FCF&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FD1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FD2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FD4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FD6&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FD8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FDA&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FDC&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FDE&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FE0&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FE1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FE3&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FE4&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FE5&MI_02
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FE8&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FF0
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FF1&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FF2&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FF6&MI_02
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FFC&MI_02
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0FFF
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E03&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0C96&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E06&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E07&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E0B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E0F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E11&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E12&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E16&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E1A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E1C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E1D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E21&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E25&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E27&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E28&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E2C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E30&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E32&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E33&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E37&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E3B&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E3D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E3E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E42&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E46&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E48&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E49&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E4D&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E51&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E53&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E54&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E58&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E5C&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E5E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E5F&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E63&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E67&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E69&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E6A&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E6E&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E72&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0E76&MI_01
-%HTC%									= USB_Install, USB\VID_0BB4&PID_0F87&MI_01
+;Google
+; Glass
+%GoogleGlassBootLoaderInterface%          = USB_Install, USB\VID_0451&PID_D022&REV_0100
+%GoogleGlassADBInterface%          = USB_Install, USB\VID_18D1&PID_9001&REV_0216&MI_01
 
+; Nexus 7 Fastboot & ADB Inteface
+%GoogleNexus7BootLoaderInterface%          = USB_Install, USB\VID_18D1&PID_4E40
+%GoogleNexus7ADBInterface%          = USB_Install, USB\VID_18D1&PID_4E41
+%GoogleNexus7ADBInterface%          = USB_Install, USB\VID_18D1&PID_4E42
+%GoogleNexus7ADBInterface%          = USB_Install, USB\VID_18D1&PID_4E42&MI_01
+%GoogleNexus7ADBInterface%          = USB_Install, USB\VID_18D1&PID_4E44&MI_01
+; Nexus (generic)
+%GoogleNexusBootLoaderInterface%          = USB_Install, USB\VID_18D1&PID_4EE0
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE1
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE2
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE2&MI_01
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE3
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE4&MI_01
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE5
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE6&MI_01
+%GoogleNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_4EE7
+; Nexus One
+%GoogleNexusOneADBInterface%          = USB_Install, USB\VID_18D1&PID_0D02
+%GoogleNexusOneADBInterface%          = USB_Install, USB\VID_18D1&PID_0D02&MI_01
+%GoogleNexusOneADBInterface%          = USB_Install, USB\VID_18D1&PID_4E11
+%GoogleNexusOneADBInterface%          = USB_Install, USB\VID_18D1&PID_4E12&MI_01
+; Nexus S
+%GoogleNexusSBootLoaderInterface%          = USB_Install, USB\VID_18D1&PID_4E20&REV_0100
+%GoogleNexusSADBInterface%          = USB_Install, USB\VID_18D1&PID_4E21
+%GoogleNexusSADBInterface%          = USB_Install, USB\VID_18D1&PID_4E22&MI_01
+%GoogleNexusSADBInterface%          = USB_Install, USB\VID_18D1&PID_4E23
+%GoogleNexusSADBInterface%          = USB_Install, USB\VID_18D1&PID_4E24&MI_01
+; Nexus Q
+%GoogleNexusQADBInterface%          = USB_Install, USB\VID_18D1&PID_2C10
+%GoogleNexusQADBInterface%          = USB_Install, USB\VID_18D1&PID_2C11
 
-;Motorola
-; Moto G
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E84&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E80
+;HTC
+; Various Models
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C01&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C02&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C03&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C04&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C06&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C07&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C81
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C83&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C84&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C85&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C86&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C87&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C88&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C8A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C8B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C8C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C8D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C8E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C8F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C90&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C91&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C92&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C95&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C97&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C98&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C99&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C9A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C9B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C9C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C9D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C9E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C9F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CA9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CAA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CAB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CAC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CAD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CAE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CAF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CB9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CBA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CBB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CBC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CBD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CBE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CBF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CC9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CCA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CCC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CCD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CCE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CCF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CD9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CDA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CDB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CDC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CDD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CDE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CDF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CE9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CEA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CEB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CEC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CED&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CEE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CEF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CF9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CFA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CFB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CFC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CFD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CFE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0CFF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D00&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D01&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D02&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D03&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D04&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D05&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D06&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D07&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D08&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D09&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D0A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D0B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D0C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D0D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D0E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D0F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D10&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D11&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D12&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D13&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D14&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D15&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D16&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D17&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D18&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D19&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D1A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D1B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D1C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D1D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D1E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D1F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D20&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D21&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D22&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D23&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D24&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D25&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D26&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D27&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D28&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D29&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D2A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D2B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D2C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D2D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D2E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D2F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D30&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D31&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D32&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D33&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D34&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D35&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D36&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D37&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D38&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D39&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D3A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D3B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D3C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D3D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D3E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D3F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D40&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D41&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D42&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D43&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D44&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D45&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D46&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D47&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D48&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D49&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D4A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D4B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D4C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D4D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D4E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D4F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D50&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D51&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D52&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D53&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D54&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D55&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D56&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D57&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D58&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D59&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D5A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D5B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D5C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D5D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D5E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D5F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D60&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D61&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D62&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D63&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D64&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D65&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D66&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D67&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D68&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D69&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D6A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D6B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D6C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D6D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D6E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D6F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D70&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D71&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D72&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D73&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D74&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D75&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D76&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D77&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D78&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D79&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D7A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D7B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D7C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D7D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D7E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D7F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D80&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D81&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D82&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D83&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D84&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D85&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D86&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D87&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D88&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D89&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D8A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D8B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D8C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D8D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D8E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D8F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D90&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D91&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D92&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D93&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D94&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D95&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D96&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D97&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D98&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D99&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D9A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D9B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D9C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D9D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D9E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0D9F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DA9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DAA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DAB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DAC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DAD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DAE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DAF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DB9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DBA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DBB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DBC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DBD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DBE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DBF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DC9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DCA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DCB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DCC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DCD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DCE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DCF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DD9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DDA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DDB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DDC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DDD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DDE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DDF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DE9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DEA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DEB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DEC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DED&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DEE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DEF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF5&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF7&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DF9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DFA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DFB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DFC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DFD&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DFE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0DFF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FC6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FC9&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FCB&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FCF&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FD1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FD2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FD4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FD6&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FD8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FDA&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FDC&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FDE&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FE0&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FE1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FE3&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FE4&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FE5&MI_02
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FE8&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FF0
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FF1&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FF2&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FF6&MI_02
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FFC&MI_02
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0FFF
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E03&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0C96&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E06&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E07&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E0B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E0F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E11&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E12&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E16&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E1A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E1C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E1D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E21&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E25&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E27&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E28&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E2C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E30&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E32&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E33&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E37&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E3B&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E3D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E3E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E42&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E46&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E48&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E49&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E4D&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E51&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E53&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E54&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E58&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E5C&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E5E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E5F&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E63&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E67&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E69&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E6A&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E6E&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E72&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0E76&MI_01
+%HTC%          = USB_Install, USB\VID_0BB4&PID_0F87&MI_01
 
-; Moto X
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E65&MI_01
-
-; h
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B6&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B8&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B9
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64BB&MI_00
-
-; test
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41EE&MI_03
-
-; q sm
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E51&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E53&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E55&MI_01
-
-; q dva
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E27&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E35&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E38&MI_03
-
-; i
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_7100
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7102&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7104&MI_03
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7106&MI_03
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7108&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_710A&MI_03
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_710C&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_710E&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7111&MI_01
-
-; x im
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64CA&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64D0&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64D2&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64D4&MI_03
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64D6&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64D8&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64DA&MI_03
-; x am
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B2&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_64B3&MI_01
-
-; ics qc d
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E22&MI_01
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_2E23
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E25&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E29&MI_05
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E2B&MI_07
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E2D&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E31&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E33&MI_02
-; ics y
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41DD&MI_02
-
-; ics o4
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4356&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_435E&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4362&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4364&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4366&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4368&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4354&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_435C&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_433D&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_433F&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4306&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4308&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4358&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4360&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_436A&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_436C&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_436E&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4370&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4372&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4374&MI_01
-
-; t qc
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E16&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E18&MI_00
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E1A&MI_02
-
-; g2
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41C7&MI_02
-
-; p qc
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_2DF1
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DF3&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DF5&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DF7&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DF9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DFB&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DFD&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DFF&MI_05
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2E02&MI_02
-; o4
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4311&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_433B&MI_02
-
-; o4-1
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4313&MI_03
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4314&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4315&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4317&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4319&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_431B&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_431D&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_431F&MI_06
-; o4-2
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4330&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4331&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4333&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4335&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4337&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4339&MI_02
-; dq+
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DE6&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DE8&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DE9&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DEA&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DEB&MI_02
-
-; h nV
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70AB&MI_04
-; et
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7094&MI_09
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7096&MI_0B
-; ev
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70B1&MI_07
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70B3&MI_09
-; t o4
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_42F1
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42F3&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42F5&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42F7&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42F9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42FB&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42FD&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4302&MI_09
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4304&MI_0B
-; s o4
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_42D1
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42D3&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42D5&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42D7&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42D9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42DB&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42DD&MI_02
-; d nV
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_70C1
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70C3&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70C5&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70C7&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70C9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70CB&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70CD&MI_02
-
-; e
-%MotSingleInterface%    = USB_Install, USB\VID_18D1&PID_708C
-%MotSingleInterface%    = USB_Install, USB\VID_18D1&PID_70AC
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70A2&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70A9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_70AF&MI_02
-
-; o3
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42C1&MI_01
-; o,e
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7090&MI_01
-; g
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41C3&MI_01
-; ft
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41E5&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7092&MI_02
-
-; g,o3 
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41E7&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41E9&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41EA&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41EC&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41ED&MI_03
-; c
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DD3&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DD4&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2DD5&MI_02
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_2DD9
-; o/e,e
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7080&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7082&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7087&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_7089&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_708B&MI_04
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_708C
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_70AC
-; s
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4284&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4286&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_4289&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_428B&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_428C&MI_01
-; d2
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42A2&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42A4&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42A7&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42A9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42AA&MI_01
-; dp
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42B2&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42B4&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42B7&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42B9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42BA&MI_01
-; v2
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42C2&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42C4&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42C7&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42C9&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_42CA&MI_01
-;Calgary
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D7B&MI_03
-
-;Calgary
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D74&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D75&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D76&MI_02
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D7B&MI_03
-
-;Morrison
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_2D62
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D61&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D64&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D66&MI_00
-;sholes umts
-%MotSingleInterface%    = USB_Install, USB\VID_22B8&PID_41D1
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41D2
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41DA&MI_04
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41DB&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41DC&MI_01
-;Sholes CDMA
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41DB&MI_01
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_41E2&MI_04
-;Morrison/Motus/Zepplin
-%MotCompositeInterface% = USB_Install, USB\VID_22B8&PID_2D68&MI_01
-
-;SONY Sony Tablet P 
-%CompositeAdbInterface%     = USB_Install, USB\VID_054C&PID_04D2&MI_01 
-;SONY Sony Tablet S 
-%CompositeAdbInterface%     = USB_Install, USB\VID_054C&PID_05B4&MI_01
-
-%Huawei%								= USB_Install, USB\VID_22DA&PID_0C03&REV_0255&MI_01
-%Huawei%								= USB_Install, USB\VID_22DA&PID_0C03&MI_01
-%Huawei%								= USB_Install, USB\VID_12D1&PID_1038&REV_0231&MI_01
-%Huawei%								= USB_Install, USB\VID_12D1&PID_1038&MI_01
-%Huawei%								= USB_Install, USB\VID_12D1&PID_1054&REV_0231&MI_01
-%Huawei%								= USB_Install, USB\VID_12D1&PID_1054&MI_01
-
-;LG P99x
-%LG%                   = USB_Install, USB\VID_1004&PID_618E
-%LG%                   = USB_Install, USB\VID_1004&PID_618E&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_61A6
-%LG%                   = USB_Install, USB\VID_1004&PID_61A6&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_61D9
-%LG%                   = USB_Install, USB\VID_1004&PID_61D9&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_61F9
-%LG%                   = USB_Install, USB\VID_1004&PID_61F9&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_61FA
-%LG%                   = USB_Install, USB\VID_1004&PID_61FA&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_631C
-%LG%                   = USB_Install, USB\VID_1004&PID_631C&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_6866
-%LG%                   = USB_Install, USB\VID_1004&PID_6866&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_D001
-%LG%                   = USB_Install, USB\VID_1004&PID_D001&MI_01
-%LG%                   = USB_Install, USB\VID_1004&PID_D10A
-%LG%                   = USB_Install, USB\VID_1004&PID_D10A&MI_01
-
-;Spreadtrum
-%Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&REV_0229&MI_01
-%Spreadtrum%							= USB_Install, USB\VID_1782&PID_5D04&MI_01
-
-;ViewSonic
-%ViewSonic%				= USB_Install, USB\VID_0408&PID_3998&REV_0216&MI_01
-%ViewSonic%				= USB_Install, USB\VID_0408&PID_3998&MI_01
-
-; Xiaomi
-%Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&REV_0228&MI_01
-%Xiaomi%                = USB_Install, USB\VID_2717&PID_9039&MI_01
+;Huawei
+; Various Models
+%Huawei%          = USB_Install, USB\VID_22DA&PID_0C03&REV_0255&MI_01
+%Huawei%          = USB_Install, USB\VID_22DA&PID_0C03&MI_01
+%Huawei%          = USB_Install, USB\VID_12D1&PID_1038&REV_0231&MI_01
+%Huawei%          = USB_Install, USB\VID_12D1&PID_1038&MI_01
+%Huawei%          = USB_Install, USB\VID_12D1&PID_1054&REV_0231&MI_01
+%Huawei%          = USB_Install, USB\VID_12D1&PID_1054&MI_01
 
 ;Lenovo
-%Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&REV_0255&MI_01
-%Lenovo%                = USB_Install, USB\VID_17EF&PID_7435&MI_01
+; Various Models
+%Lenovo%          = USB_Install, USB\VID_17EF&PID_7435&REV_0255&MI_01
+%Lenovo%          = USB_Install, USB\VID_17EF&PID_7435&MI_01
 
-;Google Glass
-%GoogleGlassBootLoaderInterface%                                        = USB_Install, USB\VID_0451&PID_D022&REV_0100
-%GoogleGlassADBInterface%                                               = USB_Install, USB\VID_18D1&PID_9001&REV_0216&MI_01
+;LG
+; P99x
+%LG%          = USB_Install, USB\VID_1004&PID_618E
+%LG%          = USB_Install, USB\VID_1004&PID_618E&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_61A6
+%LG%          = USB_Install, USB\VID_1004&PID_61A6&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_61D9
+%LG%          = USB_Install, USB\VID_1004&PID_61D9&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_61F9
+%LG%          = USB_Install, USB\VID_1004&PID_61F9&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_61FA
+%LG%          = USB_Install, USB\VID_1004&PID_61FA&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_631C
+%LG%          = USB_Install, USB\VID_1004&PID_631C&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_6866
+%LG%          = USB_Install, USB\VID_1004&PID_6866&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_D001
+%LG%          = USB_Install, USB\VID_1004&PID_D001&MI_01
+%LG%          = USB_Install, USB\VID_1004&PID_D10A
+%LG%          = USB_Install, USB\VID_1004&PID_D10A&MI_01
 
-;ZTE Valet
-%ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&REV_0233&MI_01
-%ZteValet%	= USB_Install, USB\VID_19D2&PID_0310&MI_01
+;Motorola
+; Calgary
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D74&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D75&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D76&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D7B&MI_03
+; c
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DD3&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DD4&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DD5&MI_02
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_2DD9
+
+; d2
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42A2&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42A4&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42A7&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42A9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42AA&MI_01
+; d nV
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_70C1
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70C3&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70C5&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70C7&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70C9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70CB&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70CD&MI_02
+; dp
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42B2&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42B4&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42B7&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42B9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42BA&MI_01
+; dq+
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DE6&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DE8&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DE9&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DEA&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DEB&MI_02
+
+; e
+%MotSingleInterface%          = USB_Install, USB\VID_18D1&PID_708C
+%MotSingleInterface%          = USB_Install, USB\VID_18D1&PID_70AC
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70A2&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70A9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70AF&MI_02
+; et
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7094&MI_09
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7096&MI_0B
+; ev
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70B1&MI_07
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70B3&MI_09
+
+; ft
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41E5&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7092&MI_02
+
+; g
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41C3&MI_01
+; g,o3 
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41E7&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41E9&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41EA&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41EC&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41ED&MI_03
+; g2
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41C7&MI_02
+
+; h
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64B6&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64B8&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64B9
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64BB&MI_00
+; h nV
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_70AB&MI_04
+
+; i
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_7100
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7102&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7104&MI_03
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7106&MI_03
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7108&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_710A&MI_03
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_710C&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_710E&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7111&MI_01
+; ics o4
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4356&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_435E&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4362&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4364&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4366&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4368&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4354&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_435C&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_433D&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_433F&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4306&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4308&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4358&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4360&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_436A&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_436C&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_436E&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4370&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4372&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4374&MI_01
+; ics qc d
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E22&MI_01
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_2E23
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E25&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E29&MI_05
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E2B&MI_07
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E2D&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E31&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E33&MI_02
+; ics y
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41DD&MI_02
+
+
+; Moto G
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E84&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E80
+; Moto X
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E65&MI_01
+; Morrison
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_2D62
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D61&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D64&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D66&MI_00
+; Morrison/Motus/Zepplin
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2D68&MI_01
+
+; o,e
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7090&MI_01
+; o/e,e
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7080&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7082&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7087&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_7089&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_708B&MI_04
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_708C
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_70AC
+; o3
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42C1&MI_01
+; o4
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4311&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_433B&MI_02
+; o4-1
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4313&MI_03
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4314&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4315&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4317&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4319&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_431B&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_431D&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_431F&MI_06
+; o4-2
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4330&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4331&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4333&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4335&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4337&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4339&MI_02
+
+; q dva
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E27&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E35&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E38&MI_03
+; q sm
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E51&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E53&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E55&MI_01
+
+; s o4
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_42D1
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42D3&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42D5&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42D7&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42D9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42DB&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42DD&MI_02
+; s
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4284&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4286&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4289&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_428B&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_428C&MI_01
+; Sholes
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41E2&MI_04
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_41D1
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41D2
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41DA&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41DB&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41DC&MI_01
+
+; t qc
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E16&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E18&MI_00
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E1A&MI_02
+; test
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_41EE&MI_03
+
+; p qc
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_2DF1
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DF3&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DF5&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DF7&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DF9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DFB&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DFD&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2DFF&MI_05
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_2E02&MI_02
+; t o4
+%MotSingleInterface%          = USB_Install, USB\VID_22B8&PID_42F1
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42F3&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42F5&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42F7&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42F9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42FB&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42FD&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4302&MI_09
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_4304&MI_0B
+
+; v2
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42C2&MI_04
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42C4&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42C7&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42C9&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_42CA&MI_01
+
+; x im
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64CA&MI_01
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64D0&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64D2&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64D4&MI_03
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64D6&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64D8&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64DA&MI_03
+; x am
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64B2&MI_02
+%MotCompositeInterface%          = USB_Install, USB\VID_22B8&PID_64B3&MI_01
+
+;OnePlus
+; One
+%SingleAdbInterface%          = USB_Install, USB\VID_05C6&PID_6769
+%CompositeAdbInterface%          = USB_Install, USB\VID_05C6&PID_6769&REV_0232
+
+;Samsung
+; Various Models
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_685E&REV_0400&MI_03
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6866&REV_0228&MI_01
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6860&REV_0400&MI_03
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6860&REV_0228
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6866&REV_0226&MI_01
+
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_685D&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_685E&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6860&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6861&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6862&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6864&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6866&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6867&ADB
+%Samsung%          = USB_Install_17, USB\VID_04E8&PID_6868&ADB
+%Samsung%          = USB_Install_17, USB\SAMSUNG_MOBILE&ADB
+
+; Galaxy Nexus Fastboot & ADB Inteface
+%SamsungGalaxyNexusBootLoaderInterface%          = USB_Install, USB\VID_18D1&PID_4E30
+%SamsungGalaxyNexusBootLoaderInterface%          = USB_Install, USB\VID_18D1&PID_4E30&MI_01
+%SamsungGalaxyNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_D001
+%SamsungGalaxyNexusADBInterface%          = USB_Install, USB\VID_18D1&PID_D001&REV_0216
+%SamsungGalaxyNexusADBInterface%          = USB_Install, USB\VID_04E8&PID_685C&REV_0216
+%SamsungGalaxyNexusADBInterface%          = USB_Install, USB\VID_04E8&PID_685C
+
+;SONY
+; Tablet P 
+%SONY%          = USB_Install, USB\VID_054C&PID_04D2&MI_01 
+; Tablet S 
+%SONY%          = USB_Install, USB\VID_054C&PID_05B4&MI_01
+
+; Xperia ZXs (G8232)
+%SONY%          = USB_Install, USB\VID_0FCE&PID_51ED&MI_01
+%SONY%          = USB_Install, USB\VID_0FCE&PID_51ED&REV_0318&MI_01
+
+;Spreadtrum
+%Spreadtrum%          = USB_Install, USB\VID_1782&PID_5D04&REV_0229&MI_01
+%Spreadtrum%          = USB_Install, USB\VID_1782&PID_5D04&MI_01
+
+;TCL
+; Alcatel Idol 4 (6055x)
+%TCL%          = USB_Install, USB\VID_1BBB&PID_AF3E&MI_02
+%TCL%          = USB_Install, USB\VID_1BBB&PID_AF3E&REV_0225&MI_02
+
+;ViewSonic
+%ViewSonic%          = USB_Install, USB\VID_0408&PID_3998&REV_0216&MI_01
+%ViewSonic%          = USB_Install, USB\VID_0408&PID_3998&MI_01
+
+;Xiaomi
+%Xiaomi%          = USB_Install, USB\VID_2717&PID_9039&REV_0228&MI_01
+%Xiaomi%          = USB_Install, USB\VID_2717&PID_9039&MI_01
+
+;ZTE
+; Valet
+%ZteValet%          = USB_Install, USB\VID_19D2&PID_0310&REV_0233&MI_01
+%ZteValet%          = USB_Install, USB\VID_19D2&PID_0310&MI_01
 
 
 [USB_Install]
@@ -1838,74 +1855,90 @@ DISK_NAME								= "Android WinUsb installation disk"
 ClassName								= "Android Device"
 APXBootLoaderInterface					= "APX Android Bootloader Interface"
 
-; Generic Samsung ADB Interface
-Samsung									= "Samsung Android Interface"
+;Asus
+; Eee Pad Slider SL101
+AsusEeePadSliderADBInterface                   = "Asus Eee Pad Slider ADB Interface"
+; Transformer Prime TF201
+AsusTransformerPrimeADBInterface               = "Asus Transformer Prime ADB Interface"
+AsusFastbootInterface                          = "Asus Fastboot Interface"
+; Transformer TF101
+AsusTransformerADBInterface                    = "Asus Transformer ADB Interface"
 
-; Google Nexus Generic
-GoogleNexusBootLoaderInterface				= "Google Nexus BootLoader Interface"
-GoogleNexusADBInterface					= "Google Nexus ADB Interface"
+;B & N
+; Nook
+Nook                                           = "Nook Android Interface"
 
-; Google Nexus 7
-GoogleNexus7BootLoaderInterface				= "Google Nexus 7 BootLoader Interface"
-GoogleNexus7ADBInterface				= "Google Nexus 7 ADB Interface"
+;Dell
+; Cloud Connect
+DellCC                                         = "Dell Cloud Connect"
 
-; Google Galaxy Nexus
-SamsungGalaxyNexusBootLoaderInterface			= "Google Galaxy Nexus BootLoader Interface"
-SamsungGalaxyNexusADBInterface				= "Google Galaxy Nexus ADB Interface"
+;Google
+; Glass
+GoogleGlassBootLoaderInterface                 = "Google Glass Bootloader Interface"
+GoogleGlassADBInterface                        = "Google Glass ADB Interface"
 
-; Google Nexus S
-GoogleNexusSADBInterface				= "Google Nexus S ADB Interface"
+; Nexus 7
+GoogleNexus7BootLoaderInterface                = "Google Nexus 7 BootLoader Interface"
+GoogleNexus7ADBInterface                       = "Google Nexus 7 ADB Interface"
+; Nexus Generic
+GoogleNexusBootLoaderInterface                 = "Google Nexus BootLoader Interface"
+GoogleNexusADBInterface                        = "Google Nexus ADB Interface"
+; Nexus One
+GoogleNexusOneADBInterface                     = "Google Nexus One ADB Interface"
+; Nexus Q
+GoogleNexusQADBInterface                       = "Google Nexus Q ADB Interface"
+; Nexus S
+GoogleNexusSADBInterface                       = "Google Nexus S ADB Interface"
 
-; Google Nexus Q
-GoogleNexusQADBInterface				= "Google Nexus Q ADB Interface"
+; Galaxy Nexus
+SamsungGalaxyNexusBootLoaderInterface          = "Google Galaxy Nexus BootLoader Interface"
+SamsungGalaxyNexusADBInterface                 = "Google Galaxy Nexus ADB Interface"
 
-; Google Nexus One
-GoogleNexusOneADBInterface				= "Google Nexus One ADB Interface"
+;HTC
+; Generic
+HTC                                            = "HTC Android Interface"
 
-; Asus Transformer Prime TF201
-AsusTransformerPrimeADBInterface			= "Asus Transformer Prime ADB Interface"
-AsusFastbootInterface					= "Asus Fastboot Interface"
+;Huawei
+; Generic
+Huawei                                         = "Huawei Android Interface"
 
-; Asus Transformer TF101
-AsusTransformerADBInterface				= "Asus Transformer ADB Interface"
+;Lenovo
+; Generic
+Lenovo                                         = "Lenovo Android Interface"
 
-; Asus Eee Pad Slider SL101
-AsusEeePadSliderADBInterface				= "Asus Eee Pad Slider ADB Interface"
+;LG
+; Generic
+LG                                             = "LG Android Interface"
 
-; Dell Cloud Connect
-DellCC = "Dell Cloud Connect"
+;Motorola
+; Generic
+MotSingleInterface                             = "Mot Single ADB Interface"
+MotCompositeInterface                          = "Mot Composite ADB Interface"
 
-; Generic HTC Interface
-HTC        						= "HTC Android Interface"
+;Samsung
+; Generic
+Samsung                                        = "Samsung Android Interface"
 
-; Nook Interface
-Nook                  = "Nook Android Interface"
+;SONY
+; Generic
+SONY                                           = "Sony Android Interface"
 
-; Motorola Interface
-MotSingleInterface		= "Mot Single ADB Interface"
-MotCompositeInterface	= "Mot Composite ADB Interface"
+;Speedtrum
+; Generic
+Spreadtrum                                     = "Spreadtrum Android Interface"
 
-; Huawei Interface
-Huawei                  = "Huawei Android Interface"
+;TCL
+; Generic
+TCL                                            = "Alcatel Android Inteface"
 
-; LG Interface
-LG                  = "LG Android Interface"
+;View Sonic
+; Generic
+ViewSonic                                      = "View Sonic ADB Interface"
 
-; Spreadtrum Interface
-Spreadtrum              = "Spreadtrum Android Interface"
-
-; Xiaomi Interface
-Xiaomi              = "Xiaomi Android Interface"
-
-; Lenovo Interface
-Lenovo              = "Lenovo Android Interface"
-
-; View Sonic Interface
-ViewSonic = "View Sonic ADB Interface"
-
-; Google Glass Interface
-GoogleGlassBootLoaderInterface              = "Google Glass Bootloader Interface"
-GoogleGlassADBInterface              = "Google Glass ADB Interface"
+;Xiaomi
+; Generic
+Xiaomi                                         = "Xiaomi Android Interface"
 
 ;ZTE
-ZTEValet = "ZTE Valet/Z665C ADB Interface"
+; Valet
+ZTEValet                                       = "ZTE Valet/Z665C ADB Interface"
